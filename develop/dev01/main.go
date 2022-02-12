@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+	"github.com/beevik/ntp"
+	"os"
+	"time"
+)
+
 /*
 === Базовая задача ===
 
@@ -13,5 +20,18 @@ package main
 */
 
 func main() {
-
+	//options := ntp.QueryOptions{Timeout: 30 * time.Second, TTL: 12}
+	response, err := ntp.Query("0.beevik-ntp.pool.ntp.org")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
+	err = response.Validate()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
+	time := time.Now().Add(response.ClockOffset).Format("15:04:05")
+	fmt.Println(time)
+	os.Exit(1)
 }
