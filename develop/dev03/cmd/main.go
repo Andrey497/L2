@@ -1,5 +1,11 @@
 package main
 
+import (
+	"flag"
+	"fmt"
+	"os"
+)
+
 /*
 === Утилита sort ===
 
@@ -27,4 +33,18 @@ package main
 
 func main() {
 
+	args := os.Args[1:] //получаем аргументы с терминала
+	if len(args) == 0 {
+		panic("NO argument")
+		return
+	}
+	flag.Bool("da", false, "")
+	flag.Parse()
+	fileName := args[0] //имя файла
+	//file, err := os.Open(fileName)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//defer file.Close()
+	fmt.Println(fileName)
 }

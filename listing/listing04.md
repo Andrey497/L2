@@ -19,6 +19,6 @@ func main() {
 
 Ответ:
 ```
-...
-
+выведит значения и сообщение 
+all goroutines are asleep - deadlock
 ```
