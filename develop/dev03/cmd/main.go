@@ -1,9 +1,10 @@
 package main
 
 import (
-	"flag"
+	"bufio"
 	"fmt"
 	"os"
+	"sorted/sorted"
 )
 
 /*
@@ -30,6 +31,24 @@ import (
 
 Программа должна проходить все тесты. Код должен проходить проверки go vet и golint.
 */
+func readFile(fileName string) []string {
+	result := []string{}
+	_, err := os.Stat(fileName)
+	if err != nil {
+		panic(err)
+	}
+	file, err := os.Open(fileName)
+	if err != nil {
+		panic(err)
+	}
+
+	sc := bufio.NewScanner(file)
+	for sc.Scan() {
+		result = append(result, sc.Text())
+	}
+	defer file.Close()
+	return result
+}
 
 func main() {
 
@@ -38,13 +57,23 @@ func main() {
 		panic("NO argument")
 		return
 	}
-	flag.Bool("da", false, "")
-	flag.Parse()
 	fileName := args[0] //имя файла
-	//file, err := os.Open(fileName)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//defer file.Close()
+	lines := readFile(fileName)
+	s, err := sorted.InitSort(lines)
+	if err != nil {
+		panic(err)
+	}
+	s.SwitchFlags()
+
+	err = s.Start()
+	if err != nil {
+		panic(err)
+	}
 	fmt.Println(fileName)
+	result := s.GetResult()
+	for _, val := range result {
+		fmt.Println(val)
+	}
+	fmt.Println(s.GetIsSort())
+
 }

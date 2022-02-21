@@ -3,15 +3,16 @@ package sorted
 import (
 	"errors"
 	"flag"
+	"fmt"
 )
 
-type Sorted struct {
+type sorted struct {
 	textLines            []string
 	sortLines            []string
 	columnSort           int
 	sortedByNumber       bool
 	reverse              bool
-	Unique               bool
+	unique               bool
 	sortedByMonth        bool
 	spaceIgnore          bool
 	flagCheckSort        bool
@@ -19,23 +20,30 @@ type Sorted struct {
 	checkSort            string
 }
 
-func InitSort(lines []string, columnSort int) (*Sorted, error) {
+func InitSort(lines []string) (*sorted, error) {
 	if len(lines) == 0 {
 		return nil, errors.New("empty text")
 	}
-	return &Sorted{lines, []string{}, -1,
+	return &sorted{lines, []string{}, -1,
 			false, false, false, false, false, false, false, ""},
 		nil
 }
 
-func (s *Sorted) Start() error {
+func (s *sorted) GetResult() []string {
+	return s.sortLines
+}
+func (s *sorted) GetIsSort() string {
+	return s.checkSort
+}
+
+func (s *sorted) Start() error {
+	fmt.Println("Start")
 	var err error
-	err = s.switchFlags()
 	s.sortLines = s.textLines
 	if err != nil {
 		return err
 	}
-	if s.Unique {
+	if s.unique {
 		s.sortLines = deleteDuplicates(s.sortLines)
 	}
 	if s.sortedByNumber {
@@ -65,30 +73,31 @@ func (s *Sorted) Start() error {
 			s.checkSort = "неотсортированно"
 		}
 	}
+
 	return nil
 }
 
-func (s *Sorted) switchFlags() error {
-	k := flag.Int("k", -1, "column")
+func (s *sorted) SwitchFlags() error {
+
+	k := flag.Int("k", 0, "column")
 	n := flag.Bool("n", false, "sortByNumber")
 	r := flag.Bool("r", false, "reverse")
 	u := flag.Bool("u", false, "Unique")
 	m := flag.Bool("m", false, "sortByMonth")
 	b := flag.Bool("b", false, "spaceIgnore")
-	c := flag.Bool("m", false, "checkSort")
+	c := flag.Bool("c", false, "checkSort")
 	h := flag.Bool("h", false, "sortedByNumberSuffix")
-
 	flag.Parse()
-
 	if (*n == true && (*m == true || *h == true)) ||
 		(*m == true && (*n == true || *h == true)) ||
 		(*h == true && (*n == true || *m == true)) {
 		return errors.New("multiple sorting parameters")
 	}
+	fmt.Println(*n)
 	s.columnSort = *k
 	s.sortedByNumber = *n
 	s.reverse = *r
-	s.Unique = *u
+	s.unique = *u
 	s.sortedByMonth = *m
 	s.spaceIgnore = *b
 	s.flagCheckSort = *c
