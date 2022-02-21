@@ -34,7 +34,7 @@ func TestCheckAnagram(t *testing.T) {
 	}
 	for _, testcase := range testTable {
 		result := CheckAnagram(testcase.string1, testcase.string2)
-		assert.Equal(t, result, testcase.result)
+		assert.Equal(t, testcase.result, result)
 	}
 
 }
@@ -51,7 +51,7 @@ func TestAnagrams(t *testing.T) {
 	}
 	for _, testcase := range testTable {
 		result := Anagrams(&testcase.inputStrings)
-		assert.Equal(t, *result, testcase.expected)
+		assert.Equal(t, testcase.expected, *result)
 	}
 
 }

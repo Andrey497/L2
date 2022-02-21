@@ -22,6 +22,6 @@ func TestDeleteDuplicates(t *testing.T) {
 
 	for _, testcase := range testTable {
 		result := deleteDuplicates(testcase.inputStrings)
-		assert.Equal(t, result, testcase.expected)
+		assert.Equal(t, testcase.expected, result)
 	}
 }

@@ -3,11 +3,11 @@ package sorted
 import (
 	"errors"
 	"flag"
-	"fmt"
 )
 
 type Sorted struct {
 	textLines            []string
+	sortLines            []string
 	columnSort           int
 	sortedByNumber       bool
 	reverse              bool
@@ -23,38 +23,53 @@ func InitSort(lines []string, columnSort int) (*Sorted, error) {
 	if len(lines) == 0 {
 		return nil, errors.New("empty text")
 	}
-	return &Sorted{lines, -1,
+	return &Sorted{lines, []string{}, -1,
 			false, false, false, false, false, false, false, ""},
 		nil
 }
 
 func (s *Sorted) Start() error {
-	err := s.switchFlags()
+	var err error
+	err = s.switchFlags()
+	s.sortLines = s.textLines
 	if err != nil {
 		return err
 	}
-	if s.flagCheckSort {
-
-	}
 	if s.Unique {
-
+		s.sortLines = deleteDuplicates(s.sortLines)
 	}
-
 	if s.sortedByNumber {
-
+		s.sortLines, err = sortedByNumber(s.columnSort, s.sortLines, s.reverse)
+		if err != nil {
+			return err
+		}
 	} else if s.sortedByMonth {
-
+		s.sortLines, err = sortedByMonth(s.columnSort, s.sortLines, s.reverse)
+		if err != nil {
+			return err
+		}
 	} else if s.sortedByNumberSuffix {
 
+	} else if s.columnSort != 0 {
+		s.sortLines, err = sortedStringByColumn(s.columnSort, s.sortLines, s.reverse, s.spaceIgnore)
+		if err != nil {
+			return err
+		}
 	} else {
-		fmt.Println("")
+		s.sortLines = sortedString(s.sortLines, s.reverse, s.spaceIgnore)
 	}
-
+	if s.flagCheckSort {
+		if checkSort(s.textLines, s.sortLines) {
+			s.checkSort = "отсортированно"
+		} else {
+			s.checkSort = "неотсортированно"
+		}
+	}
 	return nil
 }
 
 func (s *Sorted) switchFlags() error {
-	k := flag.Int("k", 0, "column")
+	k := flag.Int("k", -1, "column")
 	n := flag.Bool("n", false, "sortByNumber")
 	r := flag.Bool("r", false, "reverse")
 	u := flag.Bool("u", false, "Unique")

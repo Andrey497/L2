@@ -2,9 +2,10 @@ package sorted
 
 import (
 	"sort"
+	"strings"
 )
 
-func sortedStringByColumn(column int, lines []string, reverse bool) ([]string, error) {
+func sortedStringByColumn(column int, lines []string, reverse bool, spaseIgnor bool) ([]string, error) {
 	result := []string{}
 	mapForSort := map[string][]string{}
 	keys := []string{}
@@ -13,8 +14,13 @@ func sortedStringByColumn(column int, lines []string, reverse bool) ([]string, e
 		if err != nil {
 			return []string{}, err
 		}
+		if _, ok := mapForSort[key]; !ok {
+			if spaseIgnor {
+				key = strings.TrimSpace(key)
+			}
+			keys = append(keys, key)
+		}
 		mapForSort[key] = append(mapForSort[key], value)
-		keys = append(keys, key)
 	}
 	if reverse {
 		sort.Sort(sort.Reverse(sort.StringSlice(keys)))

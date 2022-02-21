@@ -18,8 +18,11 @@ func sortedByNumber(column int, lines []string, reverse bool) ([]string, error) 
 		if err != nil {
 			return []string{}, err
 		}
+		if _, ok := mapForSort[keyInt]; !ok {
+			keys = append(keys, keyInt)
+		}
 		mapForSort[keyInt] = append(mapForSort[keyInt], value)
-		keys = append(keys, keyInt)
+
 	}
 	if reverse {
 		sort.Sort(sort.Reverse(sort.IntSlice(keys)))

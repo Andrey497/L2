@@ -29,7 +29,7 @@ func TestSearchFieldForSorted(t *testing.T) {
 
 	for _, testcase := range testTable {
 		result, err := searchFieldFotSorted(testcase.inputStrings, testcase.column)
-		assert.Equal(t, result, testcase.expected)
-		assert.Equal(t, err, testcase.err)
+		assert.Equal(t, testcase.expected, result)
+		assert.Equal(t, testcase.err, err)
 	}
 }
