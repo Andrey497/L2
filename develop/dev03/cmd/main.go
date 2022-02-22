@@ -3,8 +3,8 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"mysort/sorted"
 	"os"
-	"sorted/sorted"
 )
 
 /*
@@ -57,19 +57,17 @@ func main() {
 		panic("NO argument")
 		return
 	}
-	fileName := args[0] //имя файла
+	fileName := args[len(args)-1] //имя файла
 	lines := readFile(fileName)
 	s, err := sorted.InitSort(lines)
 	if err != nil {
 		panic(err)
 	}
-	s.SwitchFlags()
 
 	err = s.Start()
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(fileName)
 	result := s.GetResult()
 	for _, val := range result {
 		fmt.Println(val)

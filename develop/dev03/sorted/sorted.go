@@ -3,7 +3,6 @@ package sorted
 import (
 	"errors"
 	"flag"
-	"fmt"
 )
 
 type sorted struct {
@@ -37,8 +36,8 @@ func (s *sorted) GetIsSort() string {
 }
 
 func (s *sorted) Start() error {
-	fmt.Println("Start")
 	var err error
+	err = s.switchFlags()
 	s.sortLines = s.textLines
 	if err != nil {
 		return err
@@ -77,8 +76,7 @@ func (s *sorted) Start() error {
 	return nil
 }
 
-func (s *sorted) SwitchFlags() error {
-
+func (s *sorted) switchFlags() error {
 	k := flag.Int("k", 0, "column")
 	n := flag.Bool("n", false, "sortByNumber")
 	r := flag.Bool("r", false, "reverse")
@@ -93,7 +91,6 @@ func (s *sorted) SwitchFlags() error {
 		(*h == true && (*n == true || *m == true)) {
 		return errors.New("multiple sorting parameters")
 	}
-	fmt.Println(*n)
 	s.columnSort = *k
 	s.sortedByNumber = *n
 	s.reverse = *r
@@ -108,5 +105,6 @@ func (s *sorted) SwitchFlags() error {
 	if *k != 0 {
 		s.columnSort = *k - 1
 	}
+
 	return nil
 }

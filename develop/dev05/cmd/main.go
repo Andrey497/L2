@@ -19,46 +19,47 @@
 package main
 
 import (
-	"fmt"
-	"math/rand"
-	"time"
+	"bufio"
+	"greep/greep"
+	"os"
 )
 
-func asChan(vs ...int) <-chan int {
-	c := make(chan int)
-
-	go func() {
-		for _, v := range vs {
-			c <- v
-			time.Sleep(time.Duration(rand.Intn(1000)) * time.Millisecond)
-		}
-
-		close(c)
-	}()
-	return c
-}
-
-func merge(a, b <-chan int) <-chan int {
-	c := make(chan int)
-	go func() {
-		for {
-			select {
-			case v := <-a:
-				c <- v
-			case v := <-b:
-				c <- v
-			}
-		}
-	}()
-	return c
+func readFile(fileName string) []string {
+	result := []string{}
+	_, err := os.Stat(fileName)
+	if err != nil {
+		panic(err)
+	}
+	file, err := os.Open(fileName)
+	if err != nil {
+		panic(err)
+	}
+	sc := bufio.NewScanner(file)
+	for sc.Scan() {
+		result = append(result, sc.Text())
+	}
+	defer file.Close()
+	return result
 }
 
 func main() {
 
-	a := asChan(1, 3, 5, 7)
-	b := asChan(2, 4, 6, 8)
-	c := merge(a, b)
-	for v := range c {
-		fmt.Println(v)
+	args := os.Args[1:] //получаем аргументы с терминала
+	if len(args) == 0 {
+		panic("NO argument")
+		return
 	}
+	fileName := args[len(args)-1]     //имя файла
+	targetString := args[len(args)-2] //имя файла
+	lines := readFile(fileName)
+	g, err := greep.InitGreep(lines, targetString)
+	if err != nil {
+		panic(err)
+	}
+	err = g.Start()
+	if err != nil {
+		panic(err)
+	}
+	g.GetResult()
+
 }
