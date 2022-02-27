@@ -2,9 +2,26 @@ package main
 
 import (
 	"fmt"
-	"sync"
 	"time"
 )
+
+//Функция обьединение каналов
+func merge(ch ...<-chan interface{}) <-chan interface{} {
+	c := make(chan interface{})
+	go func() {
+		for item := range ch {
+			go func(val <-chan interface{}) {
+				for {
+					select {
+					case v := <-val:
+						c <- v
+					}
+				}
+			}(ch[item])
+		}
+	}()
+	return c
+}
 
 //=== Or channel ===
 //
@@ -17,21 +34,30 @@ import (
 
 //Пример использования функции:
 var or = func(channels ...<-chan interface{}) <-chan interface{} {
-	var group sync.WaitGroup
+
+	flagClose := false
 	c := make(chan interface{})
 	time.Now()
 	for item := range channels {
-		group.Add(1)
-		go func(channel <-chan interface{}) {
-			for value := range channel {
-				fmt.Println(value)
+		go func(channel <-chan interface{}, item int) {
+		Loop:
+			for {
+				select {
+				case val, ok := <-channel:
+					if !ok {
+						break Loop
+					}
+					if flagClose {
+						c <- val
+					}
+				}
 			}
-			group.Done()
-			fmt.Println(time.Now())
-		}(channels[item])
+			//попадаем суда при закрытии канала
+			flagClose = true
+			fmt.Println(fmt.Sprintf(`close channel %v after %v`, item, time.Now()))
+		}(channels[item], item)
 	}
-	group.Wait()
-	close(c)
+
 	return c
 }
 
@@ -40,23 +66,29 @@ func main() {
 	sig := func(after time.Duration) <-chan interface{} {
 		c := make(chan interface{})
 		go func() {
+
 			defer close(c)
 			time.Sleep(after)
+			c <- 1
+			c <- 2
 		}()
 		return c
 	}
 
 	start := time.Now()
-	<-or(
-		sig(2*time.Hour),
-		sig(5*time.Minute),
-		sig(1*time.Second),
-		sig(1*time.Second),
-		sig(13*time.Second),
-		sig(5*time.Second),
-		sig(1*time.Hour),
-		sig(1*time.Minute),
-	)
+	go func() {
+		for val := range or(
+			sig(1*time.Second),
+			sig(2*time.Second),
+			sig(28*time.Second),
+			sig(13*time.Second),
+			sig(5*time.Second),
+		) {
+			fmt.Println(val)
+		}
+	}()
+
+	time.Sleep(100 * time.Second)
 
 	fmt.Printf(`fone after %v`, time.Since(start))
 }
