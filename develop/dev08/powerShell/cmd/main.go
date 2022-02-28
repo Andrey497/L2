@@ -24,13 +24,18 @@ func main() {
 	for sc.Scan() {
 		txt := sc.Text()
 		args := strings.Fields(txt)
-		command := args[0]
-		if command == "exit" {
-			break
+		if len(args) != 0 {
+			command := args[0]
+			if command == "exit" {
+				break
+			}
+			parameter := strings.Join(args[1:], " ")
+			shell := pkg.NewShell(command, parameter)
+			err := shell.Execute()
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
-		parameter := strings.Join(args[1:], " ")
-		shell := pkg.NewShell(command, parameter)
-		shell.Execute()
 	}
 
 }

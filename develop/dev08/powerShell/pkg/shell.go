@@ -15,14 +15,15 @@ func (sh *shell) Execute() error {
 func (sh *shell) switchCommand() error {
 	switch sh.command {
 	case "cd":
-
+		return CommandCd(sh.parameters)
 	case "pwd":
 		return CommandPwd()
 	case "echo":
 		return CommandEcho(sh.parameters)
 	case "kil":
+		return CommandKill(sh.parameters)
 	case "ps":
-
+		return CommandPs()
 	}
 
 	return nil
