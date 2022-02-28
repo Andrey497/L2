@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"net"
 	"netcat/pkg"
 )
 
@@ -10,31 +9,9 @@ import (
 принимать данные из stdin и отправлять в соединение (tcp/udp)
 Программа должна проходить все тесты. Код должен проходить проверки go vet и golint.
 */
-func server() {
-	message := "Hello, I am a server" // отправляемое сообщение
-	listener, err := net.Listen("tcp", ":8080")
 
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	defer listener.Close()
-	fmt.Println("Server is listening...")
-	for {
-		conn, err := listener.Accept()
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-		if conn != nil {
-			fmt.Println(123)
-		}
-		conn.Write([]byte(message))
-		conn.Close()
-	}
-}
 func main() {
-	go server()
+	fmt.Println(string([]byte{117, 110, 100, 101, 102, 105, 110, 101, 100}))
 	netcat := pkg.NewNetcat()
 	err := netcat.Start()
 	if err != nil {

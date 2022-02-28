@@ -3,11 +3,10 @@ package pkg
 import (
 	"errors"
 	"flag"
-	"fmt"
 	"io"
 	"log"
 	"net"
-	"os"
+	"time"
 )
 
 type netcat struct {
@@ -38,14 +37,17 @@ func (n *netcat) Start() error {
 	if err != nil {
 		return err
 	}
-	conn, err := connect(n.port, n.host, n.protocol)
-	if err != nil {
-		return err
+
+	if n.protocol == "tcp" {
+		go ServerTcp(n.port)
+		time.Sleep(2 * time.Second)
+		clientTcp(n.port, n.host, n.protocol)
+	} else if n.protocol == "udp" {
+		go ServerUdp(n.port)
+		time.Sleep(2 * time.Second)
+		clientUdp(n.port, n.host, n.protocol)
 	}
 
-	fmt.Println("Start server")
-	go copyTo(os.Stdout, conn) // читаем из сокета в stdout
-	copyTo(conn, os.Stdin)     // пишем в сокет из stdin
 	return nil
 
 }
