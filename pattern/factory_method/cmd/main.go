@@ -1,4 +1,4 @@
-package pattern
+package cmd
 
 /*
 	Реализовать паттерн «фабричный метод».

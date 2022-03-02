@@ -12,9 +12,9 @@ import (
 func command(command, parameter string) error {
 	var cmd *exec.Cmd
 	if strings.TrimSpace(parameter) != "" {
-		cmd = exec.Command(command, parameter)
+		cmd = exec.Command("cmd", "/C", command, parameter)
 	} else {
-		cmd = exec.Command(command, parameter)
+		cmd = exec.Command("cmd", "/C", command)
 	}
 	stdout, err := cmd.StdoutPipe()
 
@@ -27,7 +27,6 @@ func command(command, parameter string) error {
 	}
 
 	data, err := ioutil.ReadAll(stdout)
-
 	if err != nil {
 		return err
 	}
@@ -38,6 +37,22 @@ func command(command, parameter string) error {
 	fmt.Print(string(data))
 	return nil
 }
+
+//func cmd(cmd, parameter string) error {
+//	out := []byte{}
+//	var err error
+//
+//	if strings.TrimSpace(parameter) != "" {
+//		out, err = exec.Command("cmd", "/C", cmd, parameter).Output()
+//	} else {
+//		out, err = exec.Command("cmd", "/C", cmd, parameter).Output()
+//	}
+//	if err != nil {
+//		return err
+//	}
+//	fmt.Println(string(out))
+//	return nil
+//}
 func CommandCd(parameter string) error {
 	pwd, err := os.Getwd()
 	if err != nil {

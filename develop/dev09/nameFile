@@ -1,0 +1,1039 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.15.1" />
+		<meta name="keywords" content="HTTP,Ref-en,URI scheme,IPstack,ARCNET,About: URI,CGI,Cookies,DAAP,DNS,DTM (протокол)" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Seo Wiki - Поисковая Оптимизация и Программирование (ru)" />
+		<link rel="alternate" type="application/rss+xml" title="Seo Wiki - Поисковая Оптимизация и Программирование — RSS-лента" href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Seo Wiki - Поисковая Оптимизация и Программирование — Atom-лента" href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:RecentChanges&amp;feed=atom" />
+		<title>HTTP</title>
+		<link rel="stylesheet" href="/w/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/w/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/w/skins/monobook/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/w/skins/monobook/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/w/skins/monobook/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/w/skins/monobook/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/w/skins/monobook/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/w/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/w/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "/w/skins";
+		var wgArticlePath = "/wiki/$1";
+		var wgScriptPath = "/w";
+		var wgScript = "/w/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "http://www.sbup.com";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "HTTP";
+		var wgTitle = "HTTP";
+		var wgAction = "view";
+		var wgArticleId = "2243";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "ru";
+		var wgContentLanguage = "ru";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 4492;
+		var wgVersion = "1.15.1";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = [",	.", " 	,"];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/w/skins/common/wikibits.js?207"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/w/skins/common/ajax.js?207"></script>
+		<script type="text/javascript" src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+<script language="javascript" type="text/javascript" src="/scripts/googleanalytics.js"></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-HTTP skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<!-- Google search by me -->
+		<script language="javascript" type="text/javascript" src="/scripts/Newgoogleutf.js"></script>
+		<!-- End Google search by me -->
+		<h1 id="firstHeading" class="firstHeading">HTTP</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">Материал из Seo Wiki - Поисковая Оптимизация и Программирование</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Перейти к: <a href="#column-one">навигация</a>, <a href="#searchInput">поиск</a></div>			<!-- start content -->
+			<table class="infobox" cellspacing="2" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em;"><caption class="" style="font-size: 125%; font-weight: bold;">HTTP</caption><tr><th style="">Название:</th><td class="" style="">
+<p>Hypertext Transfer Protocol
+</p>
+</td></tr><tr><th style="">Уровень (по <a href="/w/index.php?title=%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_OSI&amp;action=edit&amp;redlink=1" class="new" title="Сетевая модель OSI (такой страницы не существует)">модели OSI</a>):</th><td class="" style="">
+<p>Прикладной
+</p>
+</td></tr><tr><th style="">Семейство:</th><td class="" style="">
+<p><a href="/w/index.php?title=%D0%A1%D1%82%D0%B5%D0%BA_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2_TCP/IP&amp;action=edit&amp;redlink=1" class="new" title="Стек протоколов TCP/IP (такой страницы не существует)">TCP/IP</a>
+</p>
+</td></tr><tr><th style="">Создан в:</th><td class="" style="">
+<p><a href="/w/index.php?title=1990&amp;action=edit&amp;redlink=1" class="new" title="1990 (такой страницы не существует)">1990</a> г.
+</p>
+</td></tr><tr><th style="">Порт/ID:</th><td class="" style="">
+<p>80/<a href="/w/index.php?title=TCP&amp;action=edit&amp;redlink=1" class="new" title="TCP (такой страницы не существует)">TCP</a>, 8080/<a href="/w/index.php?title=TCP&amp;action=edit&amp;redlink=1" class="new" title="TCP (такой страницы не существует)">TCP</a>
+</p>
+</td></tr><tr><th style="">Назначение протокола:</th><td class="" style="">
+<p>Доступ к гипертексту, ныне стал универсальным
+</p>
+</td></tr><tr><th style="">Спецификация:</th><td class="" style="">
+<p><a href="http://tools.ietf.org/html/rfc1945" class="external" title="http://tools.ietf.org/html/rfc1945">RFC 1945</a>, <a href="http://tools.ietf.org/html/rfc2616" class="external" title="http://tools.ietf.org/html/rfc2616">RFC 2616</a>
+</p>
+</td></tr><tr><th style="">Основные реализации (клиенты):</th><td class="" style="">
+<p><a href="/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" title="Браузер">Веб-браузеры</a>, например <a href="/w/index.php?title=Internet_Explorer&amp;action=edit&amp;redlink=1" class="new" title="Internet Explorer (такой страницы не существует)">Internet&nbsp;Explorer</a>, <a href="/w/index.php?title=Mozilla_Firefox&amp;action=edit&amp;redlink=1" class="new" title="Mozilla Firefox (такой страницы не существует)">Mozilla&nbsp;Firefox</a>, <a href="/w/index.php?title=Opera&amp;action=edit&amp;redlink=1" class="new" title="Opera (такой страницы не существует)">Opera</a>, <a href="/wiki/Google_Chrome" title="Google Chrome">Google Chrome</a> и&nbsp;др.
+</p>
+</td></tr><tr><th style="">Основные реализации (<a href="/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)" title="Сервер (программное обеспечение)">серверы</a>):</th><td class="" style="">
+<p><a href="/w/index.php?title=Apache&amp;action=edit&amp;redlink=1" class="new" title="Apache (такой страницы не существует)">Apache</a>, <a href="/w/index.php?title=IIS&amp;action=edit&amp;redlink=1" class="new" title="IIS (такой страницы не существует)">IIS</a><br />(см. также <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%B2" title="Список веб-серверов">список веб-серверов</a>)
+</p>
+</td></tr>
+</table>
+<table class="infobox" style="width: 17em;">
+
+<tr style="background:#AADDBB" align="center">
+<td style="font-size: 110%"> <b><strong class="selflink">HTTP</strong></b>
+</td></tr>
+<tr>
+<td> <a href="/w/index.php?title=HTTP_persistent_connection&amp;action=edit&amp;redlink=1" class="new" title="HTTP persistent connection (такой страницы не существует)">Persistence</a> &middot; <a href="/w/index.php?title=%D0%A1%D0%B6%D0%B0%D1%82%D0%B8%D0%B5_HTTP&amp;action=edit&amp;redlink=1" class="new" title="Сжатие HTTP (такой страницы не существует)">Сжатие</a> &middot; <a href="/w/index.php?title=Https&amp;action=edit&amp;redlink=1" class="new" title="Https (такой страницы не существует)">SSL</a>
+</td></tr>
+<tr style="background:#CCFFCC" align="center">
+<td> <a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP" title="Заголовки HTTP">Заголовки</a> (<a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP" title="Список заголовков HTTP">список</a>)
+</td></tr>
+<tr>
+<td> <a href="/wiki/HTTP_cookie" title="HTTP cookie">Cookie</a> &middot; <a href="/w/index.php?title=HTTP_ETag&amp;action=edit&amp;redlink=1" class="new" title="HTTP ETag (такой страницы не существует)">ETag</a> &middot; <a href="/wiki/HTTP_referer" title="HTTP referer">Referer</a> &middot; <a href="/wiki/User_Agent" title="User Agent">User-Agent</a>
+</td></tr>
+
+<tr style="background:#CCFFCC" align="center">
+<td> <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP" title="Список кодов состояния HTTP">Коды состояния</a>
+</td></tr></table>
+<p><b>HTTP</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">HyperText Transfer Protocol</span></i> — «протокол передачи <a href="/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BA%D1%81%D1%82" title="Гипертекст">гипертекста</a>») — <a href="/w/index.php?title=%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB&amp;action=edit&amp;redlink=1" class="new" title="Сетевой протокол (такой страницы не существует)">протокол</a> прикладного уровня передачи данных (изначально — в виде гипертекстовых документов). Основой HTTP является <a href="/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%C2%AB%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%C2%BB" title="Технология «клиент-сервер»">технология «клиент-сервер»</a>, то есть предполагается существование потребителей (<a href="/w/index.php?title=%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D0%B9)&amp;action=edit&amp;redlink=1" class="new" title="Клиент (программный) (такой страницы не существует)">клиентов</a>), которые инициируют соединение и посылают запрос, и поставщиков (<a href="/w/index.php?title=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_(%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)&amp;action=edit&amp;redlink=1" class="new" title="Сервер (приложение) (такой страницы не существует)">серверов</a>), которые ожидают соединения для получения запроса, производят необходимые действия и возвращают обратно сообщение с результатом.
+HTTP в настоящее время повсеместно используется во <a href="/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0" title="Всемирная паутина">Всемирной паутине</a> для получения информации с <a href="/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82" title="Веб-сайт">веб-сайтов</a>. В 2006 году в <a href="/w/index.php?title=%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Северная Америка (такой страницы не существует)">Северной Америке</a> доля HTTP-<a href="/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F" title="Информация">трафика</a> превысила долю <a href="/w/index.php?title=%D0%9F%D0%B8%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D0%B5%D1%82%D0%B8&amp;action=edit&amp;redlink=1" class="new" title="Пиринговые сети (такой страницы не существует)">P2P-сетей</a> и составила 46 %, из которых почти половина — это передача потокового видео и звука<sup id="cite_ref-0" class="reference"><a href="#cite_note-0" title="">[1]</a></sup>.
+</p><p>HTTP используется также в качестве «транспорта» для других протоколов прикладного уровня, таких как <a href="/wiki/SOAP" title="SOAP">SOAP</a>, <a href="/wiki/XML-RPC" title="XML-RPC">XML-RPC</a>, <a href="/w/index.php?title=WebDAV&amp;action=edit&amp;redlink=1" class="new" title="WebDAV (такой страницы не существует)">WebDAV</a>.
+</p><p>Основным объектом манипуляции в HTTP является <i>ресурс</i>, на который указывает <a href="/wiki/URI" title="URI">URI</a> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Uniform Resource Identifier</span></i>) в запросе клиента. Обычно такими ресурсами являются хранящиеся на сервере <a href="/w/index.php?title=%D0%A4%D0%B0%D0%B9%D0%BB&amp;action=edit&amp;redlink=1" class="new" title="Файл (такой страницы не существует)">файлы</a>, но ими могут быть логические объекты или что-то абстрактное. Особенностью протокола HTTP является возможность указать в запросе и ответе способ представления одного и того же ресурса по различным параметрам: формату, <a href="/w/index.php?title=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2&amp;action=edit&amp;redlink=1" class="new" title="Набор символов (такой страницы не существует)">кодировке</a>, языку и т. д. Именно благодаря возможности указания способа кодирования сообщения клиент и сервер могут обмениваться двоичными данными, хотя данный протокол является текстовым.
+</p><p>HTTP — протокол <a href="/w/index.php?title=%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_OSI&amp;action=edit&amp;redlink=1" class="new" title="Модель OSI (такой страницы не существует)">прикладного уровня</a>, аналогичными ему являются <a href="/w/index.php?title=File_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="File Transfer Protocol (такой страницы не существует)">FTP</a> и <a href="/w/index.php?title=SMTP&amp;action=edit&amp;redlink=1" class="new" title="SMTP (такой страницы не существует)">SMTP</a>. Обмен сообщениями идёт по обыкновенной схеме «запрос-ответ». Для идентификации ресурсов HTTP использует глобальные <a href="/wiki/URI" title="URI">URI</a>. В отличие от многих других протоколов, HTTP не сохраняет своего состояния. Это означает отсутствие сохранения промежуточного состояния между парами «запрос-ответ». Компоненты, использующие HTTP, могут самостоятельно осуществлять сохранение информации о состоянии, связанной с последними запросами и ответами. <a href="/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" title="Браузер">Браузер</a>, посылающий запросы, может отслеживать задержки ответов. Сервер может хранить <a href="/w/index.php?title=IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81&amp;action=edit&amp;redlink=1" class="new" title="IP-адрес (такой страницы не существует)">IP-адреса</a> и заголовки запросов последних клиентов. Однако сам протокол не осведомлён о предыдущих запросах и ответах, в нём не предусмотрена внутренняя поддержка состояния, к нему не предъявляются такие требования.
+</p>
+<table id="toc" class="toc" summary="Содержание"><tr><td><div id="toctitle"><h2>Содержание</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#.D0.94.D0.BE.D1.81.D1.82.D0.BE.D0.B8.D0.BD.D1.81.D1.82.D0.B2.D0.B0"><span class="tocnumber">1</span> <span class="toctext">Достоинства</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.9F.D1.80.D0.BE.D1.81.D1.82.D0.BE.D1.82.D0.B0"><span class="tocnumber">1.1</span> <span class="toctext">Простота</span></a></li>
+<li class="toclevel-2"><a href="#.D0.A0.D0.B0.D1.81.D1.88.D0.B8.D1.80.D1.8F.D0.B5.D0.BC.D0.BE.D1.81.D1.82.D1.8C"><span class="tocnumber">1.2</span> <span class="toctext">Расширяемость</span></a></li>
+<li class="toclevel-2"><a href="#.D0.A0.D0.B0.D1.81.D0.BF.D1.80.D0.BE.D1.81.D1.82.D1.80.D0.B0.D0.BD.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D1.8C"><span class="tocnumber">1.3</span> <span class="toctext">Распространённость</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.9D.D0.B5.D0.B4.D0.BE.D1.81.D1.82.D0.B0.D1.82.D0.BA.D0.B8_.D0.B8_.D0.BF.D1.80.D0.BE.D0.B1.D0.BB.D0.B5.D0.BC.D1.8B"><span class="tocnumber">2</span> <span class="toctext">Недостатки и проблемы</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.91.D0.BE.D0.BB.D1.8C.D1.88.D0.BE.D0.B9_.D1.80.D0.B0.D0.B7.D0.BC.D0.B5.D1.80_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D0.B9"><span class="tocnumber">2.1</span> <span class="toctext">Большой размер сообщений</span></a></li>
+<li class="toclevel-2"><a href="#.D0.9E.D1.82.D1.81.D1.83.D1.82.D1.81.D1.82.D0.B2.D0.B8.D0.B5_.C2.AB.D0.BD.D0.B0.D0.B2.D0.B8.D0.B3.D0.B0.D1.86.D0.B8.D0.B8.C2.BB"><span class="tocnumber">2.2</span> <span class="toctext">Отсутствие «навигации»</span></a></li>
+<li class="toclevel-2"><a href="#.D0.9D.D0.B5.D1.82_.D0.BF.D0.BE.D0.B4.D0.B4.D0.B5.D1.80.D0.B6.D0.BA.D0.B8_.D1.80.D0.B0.D1.81.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8"><span class="tocnumber">2.3</span> <span class="toctext">Нет поддержки распределённости</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.BD.D0.BE.D0.B5_.D0.BE.D0.B1.D0.B5.D1.81.D0.BF.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5"><span class="tocnumber">3</span> <span class="toctext">Программное обеспечение</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.9A.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D1.8B"><span class="tocnumber">3.1</span> <span class="toctext">Клиенты</span></a></li>
+<li class="toclevel-2"><a href="#.D0.98.D1.81.D1.85.D0.BE.D0.B4.D0.BD.D1.8B.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B"><span class="tocnumber">3.2</span> <span class="toctext">Исходные серверы</span></a></li>
+<li class="toclevel-2"><a href="#.D0.9F.D1.80.D0.BE.D0.BA.D1.81.D0.B8-.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B"><span class="tocnumber">3.3</span> <span class="toctext">Прокси-серверы</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F_.D1.80.D0.B0.D0.B7.D0.B2.D0.B8.D1.82.D0.B8.D1.8F"><span class="tocnumber">4</span> <span class="toctext">История развития</span></a>
+<ul>
+<li class="toclevel-2"><a href="#HTTP.2F0.9"><span class="tocnumber">4.1</span> <span class="toctext">HTTP/0.9</span></a></li>
+<li class="toclevel-2"><a href="#HTTP.2F1.0"><span class="tocnumber">4.2</span> <span class="toctext">HTTP/1.0</span></a></li>
+<li class="toclevel-2"><a href="#HTTP.2F1.1"><span class="tocnumber">4.3</span> <span class="toctext">HTTP/1.1</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"><span class="tocnumber">5</span> <span class="toctext">Структура протокола</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.A1.D1.82.D0.B0.D1.80.D1.82.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D1.82.D1.80.D0.BE.D0.BA.D0.B0"><span class="tocnumber">5.1</span> <span class="toctext">Стартовая строка</span></a></li>
+<li class="toclevel-2"><a href="#.D0.9C.D0.B5.D1.82.D0.BE.D0.B4.D1.8B"><span class="tocnumber">5.2</span> <span class="toctext">Методы</span></a>
+<ul>
+<li class="toclevel-3"><a href="#OPTIONS"><span class="tocnumber">5.2.1</span> <span class="toctext">OPTIONS</span></a></li>
+<li class="toclevel-3"><a href="#GET"><span class="tocnumber">5.2.2</span> <span class="toctext">GET</span></a></li>
+<li class="toclevel-3"><a href="#HEAD"><span class="tocnumber">5.2.3</span> <span class="toctext">HEAD</span></a></li>
+<li class="toclevel-3"><a href="#POST"><span class="tocnumber">5.2.4</span> <span class="toctext">POST</span></a></li>
+<li class="toclevel-3"><a href="#PUT"><span class="tocnumber">5.2.5</span> <span class="toctext">PUT</span></a></li>
+<li class="toclevel-3"><a href="#PATCH"><span class="tocnumber">5.2.6</span> <span class="toctext">PATCH</span></a></li>
+<li class="toclevel-3"><a href="#DELETE"><span class="tocnumber">5.2.7</span> <span class="toctext">DELETE</span></a></li>
+<li class="toclevel-3"><a href="#TRACE"><span class="tocnumber">5.2.8</span> <span class="toctext">TRACE</span></a></li>
+<li class="toclevel-3"><a href="#LINK"><span class="tocnumber">5.2.9</span> <span class="toctext">LINK</span></a></li>
+<li class="toclevel-3"><a href="#UNLINK"><span class="tocnumber">5.2.10</span> <span class="toctext">UNLINK</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#.D0.9A.D0.BE.D0.B4.D1.8B_.D1.81.D0.BE.D1.81.D1.82.D0.BE.D1.8F.D0.BD.D0.B8.D1.8F"><span class="tocnumber">5.3</span> <span class="toctext">Коды состояния</span></a></li>
+<li class="toclevel-2"><a href="#.D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8"><span class="tocnumber">5.4</span> <span class="toctext">Заголовки</span></a></li>
+<li class="toclevel-2"><a href="#.D0.A2.D0.B5.D0.BB.D0.BE_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">5.5</span> <span class="toctext">Тело сообщения</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80.D1.8B_.D0.B4.D0.B8.D0.B0.D0.BB.D0.BE.D0.B3.D0.BE.D0.B2_HTTP"><span class="tocnumber">6</span> <span class="toctext">Примеры диалогов HTTP</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.9E.D0.B1.D1.8B.D1.87.D0.BD.D1.8B.D0.B9_GET-.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81"><span class="tocnumber">6.1</span> <span class="toctext">Обычный GET-запрос</span></a></li>
+<li class="toclevel-2"><a href="#.D0.9F.D0.B5.D1.80.D0.B5.D0.BD.D0.B0.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F"><span class="tocnumber">6.2</span> <span class="toctext">Перенаправления</span></a></li>
+<li class="toclevel-2"><a href="#.D0.94.D0.BE.D0.BA.D0.B0.D1.87.D0.BA.D0.B0_.D0.B8_.D1.84.D1.80.D0.B0.D0.B3.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D1.80.D0.BD.D0.BE.D0.B5_.D1.81.D0.BA.D0.B0.D1.87.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"><span class="tocnumber">6.3</span> <span class="toctext">Докачка и фрагментарное скачивание</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D0.BC.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC.D1.8B_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"><span class="tocnumber">7</span> <span class="toctext">Основные механизмы протокола</span></a>
+<ul>
+<li class="toclevel-2"><a href="#.D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET"><span class="tocnumber">7.1</span> <span class="toctext">Частичные GET</span></a></li>
+<li class="toclevel-2"><a href="#.D0.A3.D1.81.D0.BB.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_GET"><span class="tocnumber">7.2</span> <span class="toctext">Условные GET</span></a></li>
+<li class="toclevel-2"><a href="#.D0.A1.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B3.D0.BE"><span class="tocnumber">7.3</span> <span class="toctext">Согласование содержимого</span></a>
+<ul>
+<li class="toclevel-3"><a href="#.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D0.BE.D0.BC"><span class="tocnumber">7.3.1</span> <span class="toctext">Управляемое сервером</span></a></li>
+<li class="toclevel-3"><a href="#.D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D0.BA.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D0.BE.D0.BC"><span class="tocnumber">7.3.2</span> <span class="toctext">Управляемое клиентом</span></a></li>
+<li class="toclevel-3"><a href="#.D0.9F.D1.80.D0.BE.D0.B7.D1.80.D0.B0.D1.87.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"><span class="tocnumber">7.3.3</span> <span class="toctext">Прозрачное согласование</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#.D0.9C.D0.BD.D0.BE.D0.B6.D0.B5.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B5"><span class="tocnumber">7.4</span> <span class="toctext">Множественное содержимое</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#.D0.9E.D1.81.D0.BE.D0.B1.D0.B5.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"><span class="tocnumber">8</span> <span class="toctext">Особенности протокола</span></a></li>
+<li class="toclevel-1"><a href="#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"><span class="tocnumber">9</span> <span class="toctext">Примечания</span></a></li>
+<li class="toclevel-1"><a href="#.D0.98.D1.81.D1.82.D0.BE.D1.87.D0.BD.D0.B8.D0.BA.D0.B8"><span class="tocnumber">10</span> <span class="toctext">Источники</span></a></li>
+<li class="toclevel-1"><a href="#.D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"><span class="tocnumber">11</span> <span class="toctext">См. также</span></a></li>
+<li class="toclevel-1"><a href="#.D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"><span class="tocnumber">12</span> <span class="toctext">Ссылки</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "показать"; var tocHideText = "убрать"; showTocToggle(); } </script>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.94.D0.BE.D1.81.D1.82.D0.BE.D0.B8.D0.BD.D1.81.D1.82.D0.B2.D0.B0" id=".D0.94.D0.BE.D1.81.D1.82.D0.BE.D0.B8.D0.BD.D1.81.D1.82.D0.B2.D0.B0"></a><h2> <span class="mw-headline"> Достоинства </span></h2>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.BE.D1.81.D1.82.D0.BE.D1.82.D0.B0" id=".D0.9F.D1.80.D0.BE.D1.81.D1.82.D0.BE.D1.82.D0.B0"></a><h3> <span class="mw-headline"> Простота </span></h3>
+<p>Протокол настолько прост в реализации, что позволяет с лёгкостью создавать клиентские приложения.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A0.D0.B0.D1.81.D1.88.D0.B8.D1.80.D1.8F.D0.B5.D0.BC.D0.BE.D1.81.D1.82.D1.8C" id=".D0.A0.D0.B0.D1.81.D1.88.D0.B8.D1.80.D1.8F.D0.B5.D0.BC.D0.BE.D1.81.D1.82.D1.8C"></a><h3> <span class="mw-headline"> Расширяемость </span></h3>
+<p>Возможности протокола легко расширяются благодаря внедрению своих собственных заголовков, сохраняя совместимость с другими клиентами и серверами. Они будут игнорировать неизвестные им заголовки, но при этом можно получить необходимую функциональность при решении специфической задачи.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A0.D0.B0.D1.81.D0.BF.D1.80.D0.BE.D1.81.D1.82.D1.80.D0.B0.D0.BD.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D1.8C" id=".D0.A0.D0.B0.D1.81.D0.BF.D1.80.D0.BE.D1.81.D1.82.D1.80.D0.B0.D0.BD.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D1.8C"></a><h3> <span class="mw-headline"> Распространённость </span></h3>
+<p>При выборе протокола HTTP для решения конкретных задач немаловажным фактором является его распространённость. Как следствие, это обилие различной документации по протоколу на многих языках мира, включение удобных в использовании средств разработки в популярные <a href="/w/index.php?title=%D0%A1%D1%80%D0%B5%D0%B4%D0%B0_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Среда разработки программного обеспечения (такой страницы не существует)">IDE</a>, поддержка протокола в качестве клиента многими программами и обширный выбор среди <a href="/w/index.php?title=%D0%A5%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3&amp;action=edit&amp;redlink=1" class="new" title="Хостинг (такой страницы не существует)">хостинговых</a> компаний с серверами HTTP.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9D.D0.B5.D0.B4.D0.BE.D1.81.D1.82.D0.B0.D1.82.D0.BA.D0.B8_.D0.B8_.D0.BF.D1.80.D0.BE.D0.B1.D0.BB.D0.B5.D0.BC.D1.8B" id=".D0.9D.D0.B5.D0.B4.D0.BE.D1.81.D1.82.D0.B0.D1.82.D0.BA.D0.B8_.D0.B8_.D0.BF.D1.80.D0.BE.D0.B1.D0.BB.D0.B5.D0.BC.D1.8B"></a><h2> <span class="mw-headline"> Недостатки и проблемы </span></h2>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.91.D0.BE.D0.BB.D1.8C.D1.88.D0.BE.D0.B9_.D1.80.D0.B0.D0.B7.D0.BC.D0.B5.D1.80_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D0.B9" id=".D0.91.D0.BE.D0.BB.D1.8C.D1.88.D0.BE.D0.B9_.D1.80.D0.B0.D0.B7.D0.BC.D0.B5.D1.80_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D0.B9"></a><h3> <span class="mw-headline"> Большой размер сообщений </span></h3>
+<p>Использование текстового формата в протоколе порождает соответствующий недостаток: большой размер сообщений по сравнению с передачей двоичных данных. Из-за этого возрастает нагрузка на оборудование при формировании, обработке и передаче сообщений. Для решения данной проблемы в протокол встроены средства для обеспечения <a href="/w/index.php?title=%D0%9A%D0%B5%D1%88-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Кеш-память (такой страницы не существует)">кэширования</a> на стороне клиента, а также средства компрессии передаваемого контента. Нормативными документами по протоколу предусмотрено наличие <a href="/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Прокси-сервер">прокси-серверов</a>, которые позволяют получить клиенту документ с наиболее близкого к нему сервера. Также в протокол было внедрено <a href="/w/index.php?title=%D0%94%D0%B5%D0%BB%D1%8C%D1%82%D0%B0-%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&amp;action=edit&amp;redlink=1" class="new" title="Дельта-кодирование (такой страницы не существует)">дельта-кодирование</a>, чтобы клиенту передавался не весь документ, а только его изменённая часть.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9E.D1.82.D1.81.D1.83.D1.82.D1.81.D1.82.D0.B2.D0.B8.D0.B5_.C2.AB.D0.BD.D0.B0.D0.B2.D0.B8.D0.B3.D0.B0.D1.86.D0.B8.D0.B8.C2.BB" id=".D0.9E.D1.82.D1.81.D1.83.D1.82.D1.81.D1.82.D0.B2.D0.B8.D0.B5_.C2.AB.D0.BD.D0.B0.D0.B2.D0.B8.D0.B3.D0.B0.D1.86.D0.B8.D0.B8.C2.BB"></a><h3> <span class="mw-headline"> Отсутствие «навигации» </span></h3>
+<p>Хотя протокол разрабатывался как средство работы с ресурсами сервера, у него отсутствуют в явном виде средства навигации среди этих ресурсов. Например, клиент не может явным образом запросить список доступных файлов, как в <a href="/w/index.php?title=FTP&amp;action=edit&amp;redlink=1" class="new" title="FTP (такой страницы не существует)">протоколе FTP</a>. Предполагалось, что конечный пользователь уже знает <a href="/wiki/URI" title="URI">URI</a> необходимого ему документа, закачав который, он будет производить навигацию благодаря <a href="/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BA%D1%81%D1%82" title="Гипертекст">гиперссылкам</a>. Это вполне нормально и удобно для человека, но затруднительно, когда стоят задачи автоматической обработки и анализа всех ресурсов сервера без участия человека. Решение этой проблемы лежит полностью на плечах разработчиков приложений, использующих данный протокол.
+</p><p>Например, со стороны клиента используются <i><a href="/w/index.php?title=%D0%92%D0%B5%D0%B1-%D0%BF%D0%B0%D1%83%D0%BA&amp;action=edit&amp;redlink=1" class="new" title="Веб-паук (такой страницы не существует)">веб-пауки</a></i> — специальные программы, которые составляют список ресурсов сервера проходя по всем найденным гиперссылкам.
+Со стороны сервера данная проблема решается с помощью <a href="/wiki/%D0%9A%D0%B0%D1%80%D1%82%D0%B0_%D1%81%D0%B0%D0%B9%D1%82%D0%B0" title="Карта сайта">карты сайта</a> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">site map</span></i>) — специальной веб-странице, где перечислены все доступные для посещения ресурсы. Она предназначена не только для людей играя аналогичную содержанию в книге роль, но и полезна для тех же роботов-пауков позволяя уменьшить глубину — минимальное необходимое количество переходов с главной страницы.
+Для тех же целей служат файлы формата <a href="/wiki/Sitemaps" title="Sitemaps">Sitemap</a>, которые предназначены уже непосредственно для роботов.
+</p><p>Полностью эта проблема решена в расширяющем HTTP протоколе <a href="/w/index.php?title=WebDAV&amp;action=edit&amp;redlink=1" class="new" title="WebDAV (такой страницы не существует)">WebDAV</a> с помощью добавленного метода <tt>PROPFIND</tt>. Данный метод позволяет не только получить дерево каталогов, но и список параметров каждого ресурса.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9D.D0.B5.D1.82_.D0.BF.D0.BE.D0.B4.D0.B4.D0.B5.D1.80.D0.B6.D0.BA.D0.B8_.D1.80.D0.B0.D1.81.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8" id=".D0.9D.D0.B5.D1.82_.D0.BF.D0.BE.D0.B4.D0.B4.D0.B5.D1.80.D0.B6.D0.BA.D0.B8_.D1.80.D0.B0.D1.81.D0.BF.D1.80.D0.B5.D0.B4.D0.B5.D0.BB.D1.91.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8"></a><h3> <span class="mw-headline"> Нет поддержки распределённости </span></h3>
+<p>Протокол HTTP разрабатывался для решения типичных бытовых задач, где само по себе время обработки запроса должно занимать незначительное время или вообще не приниматься в расчёт. Но в промышленном использовании с применением <a href="/w/index.php?title=%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Распределённые вычисления (такой страницы не существует)">распределённых вычислений</a> при высоких нагрузках на сервер протокол HTTP оказывается беспомощен. В <a href="/w/index.php?title=1998_%D0%B3%D0%BE%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="1998 год (такой страницы не существует)">1998 году</a> <a href="/w/index.php?title=W3C&amp;action=edit&amp;redlink=1" class="new" title="W3C (такой страницы не существует)">W3C</a> предложил альтернативный протокол <b><a href="/w/index.php?title=HTTP-NG&amp;action=edit&amp;redlink=1" class="new" title="HTTP-NG (такой страницы не существует)">HTTP-NG</a></b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">HTTP Next Generation</span></i>) для полной замены устаревшего с акцентированием внимания именно на этой области<sup id="cite_ref-1" class="reference"><a href="#cite_note-1" title="">[2]</a></sup>. Идею его необходимости поддержали крупные специалисты по распределённым вычислениям, но данный протокол до сих пор находится на стадии разработки.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.BD.D0.BE.D0.B5_.D0.BE.D0.B1.D0.B5.D1.81.D0.BF.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5" id=".D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.BD.D0.BE.D0.B5_.D0.BE.D0.B1.D0.B5.D1.81.D0.BF.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5"></a><h2> <span class="mw-headline"> Программное обеспечение </span></h2>
+<p>Всё программное обеспечение для работы с протоколом HTTP разделяется на три больших категории:
+</p>
+<ul><li> <b>Серверы</b> как основные поставщики услуг хранения и обработки информации (обработка запросов).
+</li><li> <b>Клиенты</b> — конечные потребители услуг сервера (отправка запроса).
+</li><li> <b>Прокси</b> для выполнения транспортных служб.
+</li></ul>
+<p>Для отличия конечных серверов от прокси в официальной документации используется термин <i>origin server</i> (рус. <i>исходный сервер</i>). Разумеется, один и тот же программный продукт может одновременно выполнять функции клиента, сервера или посредника в зависимости от поставленных задач. В спецификациях протокола HTTP подробно описывается поведение для каждой из этих ролей.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9A.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D1.8B" id=".D0.9A.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D1.8B"></a><h3> <span class="mw-headline"> Клиенты </span></h3>
+<p>Первоначально протокол HTTP разрабатывался для доступа к гипертекстовым документам Всемирной паутины. Поэтому основными реализациями клиентов являются <b><a href="/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" title="Браузер">браузеры</a></b> (агенты пользователя).
+Популярные браузеры (в алфавитном порядке): <a href="/wiki/Google_Chrome" title="Google Chrome">Chrome</a>, <a href="/w/index.php?title=Epiphany&amp;action=edit&amp;redlink=1" class="new" title="Epiphany (такой страницы не существует)">Epiphany</a>, <a href="/w/index.php?title=Internet_Explorer&amp;action=edit&amp;redlink=1" class="new" title="Internet Explorer (такой страницы не существует)">Internet Explorer</a>, <a href="/w/index.php?title=Konqueror&amp;action=edit&amp;redlink=1" class="new" title="Konqueror (такой страницы не существует)">Konqueror</a>, <a href="/w/index.php?title=Mozilla_Firefox&amp;action=edit&amp;redlink=1" class="new" title="Mozilla Firefox (такой страницы не существует)">Mozilla Firefox</a>, <a href="/w/index.php?title=Opera&amp;action=edit&amp;redlink=1" class="new" title="Opera (такой страницы не существует)">Opera</a>, <a href="/wiki/Safari" title="Safari">Safari</a>.
+</p>
+<dl><dd> <i>См также: <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%BE%D0%B2" title="Список браузеров">Список браузеров</a> и <a href="/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%BE%D0%B2" title="Сравнение браузеров">Сравнение браузеров</a></i>
+</dd></dl>
+<p>Для просмотра сохраненного содержимого сайтов на компьютере без соединения с Интернетом были придуманы <b><a href="/w/index.php?title=%D0%9E%D1%84%D1%84%D0%BB%D0%B0%D0%B9%D0%BD-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Оффлайн-браузеры (такой страницы не существует)">оффлайн-браузеры</a></b>. Среди известных <a href="/w/index.php?title=HTTrack&amp;action=edit&amp;redlink=1" class="new" title="HTTrack (такой страницы не существует)">HTTrack</a> и <a href="/w/index.php?title=Offline_Explorer&amp;action=edit&amp;redlink=1" class="new" title="Offline Explorer (такой страницы не существует)">Offline Explorer</a>.
+</p><p>При нестабильном соединении для загрузки больших файлов используются <b><a href="/wiki/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80_%D0%B7%D0%B0%D0%BA%D0%B0%D1%87%D0%B5%D0%BA" title="Менеджер закачек">менеджеры закачек</a></b>. Они позволяют в любое время докачать указанные файлы после потери соединения с веб-сервером. В <a href="/w/index.php?title=%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Операционная система (такой страницы не существует)">ОС</a> <a href="/w/index.php?title=Microsoft_Windows&amp;action=edit&amp;redlink=1" class="new" title="Microsoft Windows (такой страницы не существует)">Windows</a> популярны программы <a href="/w/index.php?title=Download_Master&amp;action=edit&amp;redlink=1" class="new" title="Download Master (такой страницы не существует)">Download Master</a>, <a href="/w/index.php?title=FlashGet&amp;action=edit&amp;redlink=1" class="new" title="FlashGet (такой страницы не существует)">FlashGet</a>, <a href="/w/index.php?title=Free_Download_Manager&amp;action=edit&amp;redlink=1" class="new" title="Free Download Manager (такой страницы не существует)">Free Download Manager</a>, <a href="/w/index.php?title=GetRight&amp;action=edit&amp;redlink=1" class="new" title="GetRight (такой страницы не существует)">GetRight</a>, <a href="/w/index.php?title=ReGet&amp;action=edit&amp;redlink=1" class="new" title="ReGet (такой страницы не существует)">ReGet</a>. В <a href="/wiki/Linux" title="Linux">Linux</a> — графический менеджер закачек <a href="/w/index.php?title=KGet&amp;action=edit&amp;redlink=1" class="new" title="KGet (такой страницы не существует)">KGet</a> и <a href="/w/index.php?title=D4x&amp;action=edit&amp;redlink=1" class="new" title="D4x (такой страницы не существует)">d4x</a> (Downloader For X). Многие пользователи Linux предпочитают использование <a href="/wiki/Wget" title="Wget">Wget</a> — программы для загрузки файлов, которая сама по себе не является менеджером закачек.
+</p><p>Виртуальные атласы, такие как <a href="/wiki/Google_%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F" title="Google Планета Земля">Google Планета Земля</a> и <a href="/w/index.php?title=NASA_World_Wind&amp;action=edit&amp;redlink=1" class="new" title="NASA World Wind (такой страницы не существует)">NASA World Wind</a>, тоже используют HTTP.
+</p><p>Нередко протокол HTTP используется программами для скачивания обновлений.
+</p><p>Целый комплекс программ-роботов используется в <a href="/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0" title="Поисковая система">поисковых системах</a> Интернета. Среди них <b><a href="/w/index.php?title=%D0%92%D0%B5%D0%B1-%D0%BF%D0%B0%D1%83%D0%BA&amp;action=edit&amp;redlink=1" class="new" title="Веб-паук (такой страницы не существует)">веб-пауки</a></b> (краулеры), которые производят проход по гиперссылкам, составляют базу данных ресурсов серверов и сохраняют их содержимое для дальнейшего анализа.
+</p>
+<dl><dd> <i>См. также: <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D1%85_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD" title="Список поисковых машин">Список поисковых машин</a>, <a href="/wiki/%D0%90%D1%80%D1%85%D0%B8%D0%B2_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B0" title="Архив Интернета">Архив Интернета</a></i>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.98.D1.81.D1.85.D0.BE.D0.B4.D0.BD.D1.8B.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B" id=".D0.98.D1.81.D1.85.D0.BE.D0.B4.D0.BD.D1.8B.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B"></a><h3> <span class="mw-headline"> Исходные серверы </span></h3>
+<p>Основные реализации: <a href="/w/index.php?title=Apache&amp;action=edit&amp;redlink=1" class="new" title="Apache (такой страницы не существует)">Apache</a>, <a href="/wiki/Internet_Information_Services" title="Internet Information Services">Internet Information Services</a> (IIS), <a href="/w/index.php?title=Lighttpd&amp;action=edit&amp;redlink=1" class="new" title="Lighttpd (такой страницы не существует)">lighttpd</a>, <a href="/wiki/Nginx" title="Nginx">nginx</a>.
+</p>
+<dl><dd> <i>См. также: <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%B2" title="Список веб-серверов">Список веб-серверов</a></i>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.BE.D0.BA.D1.81.D0.B8-.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B" id=".D0.9F.D1.80.D0.BE.D0.BA.D1.81.D0.B8-.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D1.8B"></a><h3> <span class="mw-headline"> Прокси-серверы </span></h3>
+<p>Основные реализации: <a href="/w/index.php?title=Squid&amp;action=edit&amp;redlink=1" class="new" title="Squid (такой страницы не существует)">Squid</a>, <a href="/w/index.php?title=UserGate&amp;action=edit&amp;redlink=1" class="new" title="UserGate (такой страницы не существует)">UserGate</a>, <a href="/w/index.php?title=Multiproxy&amp;action=edit&amp;redlink=1" class="new" title="Multiproxy (такой страницы не существует)">Multiproxy</a>, <a href="/w/index.php?title=Naviscope&amp;action=edit&amp;redlink=1" class="new" title="Naviscope (такой страницы не существует)">Naviscope</a>, <a href="/wiki/Nginx" title="Nginx">Nginx</a>.
+</p>
+<dl><dd> <i>См. также: <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%B2" title="Список веб-серверов">Список веб-серверов</a></i>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F_.D1.80.D0.B0.D0.B7.D0.B2.D0.B8.D1.82.D0.B8.D1.8F" id=".D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F_.D1.80.D0.B0.D0.B7.D0.B2.D0.B8.D1.82.D0.B8.D1.8F"></a><h2> <span class="mw-headline"> История развития </span></h2>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="HTTP.2F0.9" id="HTTP.2F0.9"></a><h3> <span class="mw-headline"> HTTP/0.9 </span></h3>
+<p>HTTP был предложен в марте <a href="/w/index.php?title=1991_%D0%B3%D0%BE%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="1991 год (такой страницы не существует)">1991 года</a> <a href="/wiki/%D0%91%D0%B5%D1%80%D0%BD%D0%B5%D1%80%D1%81-%D0%9B%D0%B8,_%D0%A2%D0%B8%D0%BC" title="Бернерс-Ли, Тим">Тимом Бернерсом-Ли</a>, работавшим тогда в <a href="/w/index.php?title=CERN&amp;action=edit&amp;redlink=1" class="new" title="CERN (такой страницы не существует)">CERN</a>, как механизм для доступа к документам в <a href="/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82" title="Интернет">Интернете</a> и облегчения навигации посредством использования <a href="/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BA%D1%81%D1%82" title="Гипертекст">гипертекста</a>. Самая ранняя версия протокола HTTP/0.9 была впервые опубликована в январе <a href="/w/index.php?title=1992&amp;action=edit&amp;redlink=1" class="new" title="1992 (такой страницы не существует)">1992</a> г. (хотя реализация датируется <a href="/w/index.php?title=1990_%D0%B3%D0%BE%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="1990 год (такой страницы не существует)">1990 годом</a>). Спецификация протокола привела к упорядочению правил взаимодействия между клиентами и серверами HTTP, а также чёткому разделению функций между этими двумя компонентами. Были задокументированы основные <a href="/w/index.php?title=%D0%A1%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81&amp;action=edit&amp;redlink=1" class="new" title="Синтаксис (такой страницы не существует)">синтаксические</a> и <a href="/w/index.php?title=%D0%A1%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Семантика (такой страницы не существует)">семантические</a> положения.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="HTTP.2F1.0" id="HTTP.2F1.0"></a><h3> <span class="mw-headline"> HTTP/1.0 </span></h3>
+<p>В мае <a href="/w/index.php?title=1996_%D0%B3%D0%BE%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="1996 год (такой страницы не существует)">1996 года</a> для практической реализации HTTP был выпущен информационный документ <a href="http://tools.ietf.org/html/rfc1945" class="external" title="http://tools.ietf.org/html/rfc1945">RFC 1945</a>, что послужило основой для реализации большинства компонентов HTTP/1.0.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="HTTP.2F1.1" id="HTTP.2F1.1"></a><h3> <span class="mw-headline"> HTTP/1.1 </span></h3>
+<p>Текущая версия протокола, принята в июне <a href="/w/index.php?title=1999_%D0%B3%D0%BE%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="1999 год (такой страницы не существует)">1999 года</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2" title="">[прим 1]</a></sup>.
+Новым в этой версии был режим «постоянного соединения»: <a href="/w/index.php?title=TCP&amp;action=edit&amp;redlink=1" class="new" title="TCP (такой страницы не существует)">TCP</a>-соединение может оставаться открытым после отправки ответа на запрос, что позволяет посылать несколько запросов за одно соединение. Клиент теперь обязан посылать информацию об имени хоста, к которому он обращается, что сделало возможным более простую организацию виртуального хостинга.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0" id=".D0.A1.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"></a><h2> <span class="mw-headline"> Структура протокола </span></h2>
+<p>Каждое HTTP-сообщение состоит из трёх частей, которые передаются в указанном порядке:
+</p>
+<ol><li> Стартовая строка (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Starting line</span></i>) — определяет тип сообщения;
+</li><li> Заголовки (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Headers</span></i>) — характеризуют тело сообщения, параметры передачи и прочие сведения;
+</li><li> Тело сообщения (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Message Body</span></i>) — непосредственно данные сообщения. Обязательно должно отделяться от заголовков пустой строкой.
+</li></ol>
+<p>Заголовки и тело сообщения могут отсутствовать, но стартовая строка является обязательным элементом, так как указывает на тип запроса/ответа. Исключением является версия 0.9 протокола, у которой сообщение запроса содержит только стартовую строку, а сообщения ответа только тело сообщения.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A1.D1.82.D0.B0.D1.80.D1.82.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D1.82.D1.80.D0.BE.D0.BA.D0.B0" id=".D0.A1.D1.82.D0.B0.D1.80.D1.82.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D1.82.D1.80.D0.BE.D0.BA.D0.B0"></a><h3> <span class="mw-headline"> Стартовая строка </span></h3>
+<p>Стартовые строки различаются для запроса и ответа. Строка запроса выглядит так:
+</p>
+<dl><dd> <tt>GET <b>URI</b></tt> — для версии протокола 0.9.
+</dd><dd> <tt><b>Метод</b> <b>URI</b> HTTP/<b>Версия</b></tt> — для остальных версий.
+</dd></dl>
+<p>Здесь:
+</p>
+<ul><li> <b>Метод</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Method</span></i>) — название запроса, одно слово заглавными буквами. В версии HTTP 0.9 использовался только метод <tt>GET</tt>, список запросов для версии 1.1 представлен ниже.
+</li><li> <b><a href="/wiki/URI" title="URI">URI</a></b> определяет путь к запрашиваемому документу.
+</li><li> <b>Версия</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Version</span></i>) — пара разделённых точкой <a href="/w/index.php?title=%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B5_%D1%86%D0%B8%D1%84%D1%80%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Арабские цифры (такой страницы не существует)">арабских цифр</a>. Например: <tt>1.0</tt>.
+</li></ul>
+<p>Чтобы запросить страницу данной статьи, клиент должен передать строку:
+</p>
+<dl><dd> <tt>GET /wiki/Http HTTP/1.0</tt>
+</dd></dl>
+<p>Стартовая строка ответа сервера имеет следующий формат:
+</p>
+<dl><dd> <tt>HTTP/<b>Версия</b> <b>КодСостояния</b> <b>Пояснение</b></tt>
+</dd></dl>
+<p>Здесь:
+</p>
+<ul><li> <b>Версия</b> — пара разделённых точкой арабских цифр как в запросе.
+</li><li> <b>КодСостояния</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Status Code</span></i>) — три арабские цифры. По коду статуса определяется дальнейшее содержимое сообщения и поведение клиента.
+</li><li> <b>Пояснение</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Reason Phrase</span></i>) — текстовое короткое пояснение к коду ответа для пользователя. Никак не влияет на сообщение и является необязательным.
+</li></ul>
+<p>Например, на предыдущий наш запрос клиентом данной страницы сервер ответил строкой:
+</p>
+<dl><dd> <tt>HTTP/1.0 200 Ok</tt>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9C.D0.B5.D1.82.D0.BE.D0.B4.D1.8B" id=".D0.9C.D0.B5.D1.82.D0.BE.D0.B4.D1.8B"></a><h3> <span class="mw-headline"> Методы </span></h3>
+<p><b>Метод HTTP</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">HTTP Method</span></i>) — последовательность из любых символов, кроме управляющих и разделителей, указывающая на основную операцию над ресурсом. Обычно метод представляет собой короткое английское слово, записанное заглавными буквами. Обратите внимание, что название метода чувствительно к регистру.
+</p><p>Каждый сервер обязан поддерживать как минимум методы <tt>GET</tt> и <tt>HEAD</tt>. Если сервер не распознал указанный клиентом метод, то он должен вернуть статус <tt>501</tt> (Not Implemented). Если серверу метод известен, но он не применим к конкретному ресурсу, то возвращается сообщение с кодом <tt>405</tt> (Method Not Allowed). В обоих случаях серверу следует включить в сообщение ответа заголовок <tt>Allow</tt> со списком поддерживаемых методов.
+</p><p>Кроме методов <tt>GET</tt> и <tt>HEAD</tt>, часто применяется метод <tt>POST</tt>.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="OPTIONS" id="OPTIONS"></a><h4> <span class="mw-headline"> OPTIONS </span></h4>
+<p>Используется для определения возможностей веб-сервера или параметров соединения для конкретного ресурса. В ответ серверу следует включить заголовок <tt>Allow</tt> со списком поддерживаемых методов. Также в заголовки ответа может включаться информация о поддерживаемых расширениях.
+</p><p>Предполагается, что запрос клиента может содержать тело сообщения для указания интересующих его сведений. Формат тела и порядок работы с ним в настоящий момент не определён. Сервер пока должен его игнорировать. Аналогичная ситуация и с телом в ответе сервера.
+</p><p>Для того чтобы узнать возможности всего сервера, клиент должен указать в URI звёздочку — «<tt>*</tt>». Запросы «<tt>OPTIONS * HTTP/1.1</tt>» могут также применяться для проверки работоспособности сервера (аналогично «пингованию») и тестирования на предмет поддержки сервером протокола HTTP версии 1.1.
+</p><p>Результат выполнения этого метода не кэшируется.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="GET" id="GET"></a><h4> <span class="mw-headline"> GET </span></h4>
+<p>Используется для запроса содержимого указанного ресурса. С помощью метода <tt>GET</tt> можно также начать какой-либо процесс. В этом случае в тело ответного сообщения следует включить информацию о ходе выполнения процесса.
+</p><p>Клиент может передавать параметры выполнения запроса в URI целевого ресурса после символа «<tt>?</tt>»:<br /><code>GET /path/resource?param1=value1&amp;param2=value2 HTTP/1.1</code>
+</p><p>Согласно стандарту HTTP, запросы типа <tt>GET</tt> считаются <a href="/w/index.php?title=%D0%98%D0%B4%D0%B5%D0%BC%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Идемпотентность (такой страницы не существует)">идемпотентными</a><sup id="cite_ref-http-spec-methods_3-0" class="reference"><a href="#cite_note-http-spec-methods-3" title="">[3]</a></sup> — многократное повторение одного и того же запроса <tt>GET</tt> должно приводить к одинаковым результатам (при условии, что сам ресурс не изменился за время между запросами). Это позволяет <a href="/w/index.php?title=%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&amp;action=edit&amp;redlink=1" class="new" title="Кэширование (такой страницы не существует)">кэшировать</a> ответы на запросы <tt>GET</tt>.
+</p><p>Кроме обычного метода <tt>GET</tt>, различают ещё <b><a href="#.D0.A3.D1.81.D0.BB.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_GET" title="">условный <tt>GET</tt></a></b> и <b><a href="#.D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET" title="">частичный <tt>GET</tt></a></b>. Условные запросы <tt>GET</tt> содержат заголовки <tt>If-Modified-Since</tt>, <tt>If-Match</tt>, <tt>If-Range</tt> и подобные. Частичные <tt>GET</tt> содержат в запросе <tt>Range</tt>. Порядок выполнения подобных запросов определён стандартами отдельно.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="HEAD" id="HEAD"></a><h4> <span class="mw-headline"> HEAD </span></h4>
+<p>Аналогичен методу <tt>GET</tt>, за исключением того, что в ответе сервера отсутствует тело. Запрос <tt>HEAD</tt> обычно применяется для извлечения <a href="/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" title="Метаданные">метаданных</a>, проверки наличия ресурса (валидация URL) и чтобы узнать, не изменился ли он с момента последнего обращения.
+</p><p>Заголовки ответа могут кэшироваться. При несовпадении метаданных ресурса с соответствующей информацией в кэше копия ресурса помечается как устаревшая.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="POST" id="POST"></a><h4> <span class="mw-headline"> POST </span></h4>
+<p>Применяется для передачи пользовательских данных заданному ресурсу. Например, в <a href="/wiki/%D0%91%D0%BB%D0%BE%D0%B3" title="Блог">блогах</a> посетители обычно могут вводить свои комментарии к записям в HTML-форму, после чего они передаются серверу методом <tt>POST</tt> и он помещает их на страницу. При этом передаваемые данные (в примере с блогами — текст комментария) включаются в тело запроса. Аналогично с помощью метода <tt>POST</tt> обычно загружаются файлы.
+</p><p>В отличие от метода <tt>GET</tt>, метод <tt>POST</tt> не считается идемпотентным<sup id="cite_ref-http-spec-methods_3-1" class="reference"><a href="#cite_note-http-spec-methods-3" title="">[3]</a></sup>, то есть многократное повторение одних и тех же запросов <tt>POST</tt> может возвращать разные результаты (например, после каждой отправки комментария будет появляться одна копия этого комментария).
+</p><p>При результатах выполнения <tt>200</tt> (Ok) и <tt>204</tt> (No Content) в тело ответа следует включить сообщение об итоге выполнения запроса. Если был создан ресурс, то серверу следует вернуть ответ <tt>201</tt> (Created) с указанием URI нового ресурса в заголовке <tt>Location</tt>.
+</p><p>Сообщение ответа сервера на выполнение метода <tt>POST</tt> не кэшируется.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="PUT" id="PUT"></a><h4> <span class="mw-headline"> PUT </span></h4>
+<p>Применяется для загрузки содержимого запроса на указанный в запросе <a href="/wiki/URI" title="URI">URI</a>. Если по заданному URI не существовало ресурса, то сервер создаёт его и возвращает статус <tt>201</tt> (Created). Если же был изменён ресурс, то сервер возвращает <tt>200</tt> (Ok) или <tt>204</tt> (No Content). Сервер не должен игнорировать некорректные заголовки <tt>Content-*</tt> передаваемые клиентом вместе с сообщением. Если какой-то из этих заголовков не может быть распознан или не допустим при текущих условиях, то необходимо вернуть код ошибки <tt>501</tt> (Not Implemented).
+</p><p>Фундаментальное различие методов <tt>POST</tt> и <tt>PUT</tt> заключается в понимании предназначений URI ресурсов. Метод <tt>POST</tt> предполагает, что по указанному URI будет производиться обработка передаваемого клиентом содержимого. Используя <tt>PUT</tt>, клиент предполагает, что загружаемое содержимое соответствуют находящемуся по данному URI ресурсу.
+</p><p>Сообщения ответов сервера на метод <tt>PUT</tt> не кэшируются.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="PATCH" id="PATCH"></a><h4> <span class="mw-headline"> PATCH </span></h4>
+<p>Аналогично PUT, но применяется только к фрагменту ресурса.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="DELETE" id="DELETE"></a><h4> <span class="mw-headline"> DELETE </span></h4>
+<p>Удаляет указанный ресурс.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="TRACE" id="TRACE"></a><h4> <span class="mw-headline"> TRACE </span></h4>
+<p>Возвращает полученный запрос так, что клиент может увидеть, что́ промежуточные сервера добавляют или изменяют в запросе.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="LINK" id="LINK"></a><h4> <span class="mw-headline"> LINK </span></h4>
+<p>Устанавливает связь указанного ресурса с другими.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name="UNLINK" id="UNLINK"></a><h4> <span class="mw-headline"> UNLINK </span></h4>
+<p>Убирает связь указанного ресурса с другими.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9A.D0.BE.D0.B4.D1.8B_.D1.81.D0.BE.D1.81.D1.82.D0.BE.D1.8F.D0.BD.D0.B8.D1.8F" id=".D0.9A.D0.BE.D0.B4.D1.8B_.D1.81.D0.BE.D1.81.D1.82.D0.BE.D1.8F.D0.BD.D0.B8.D1.8F"></a><h3> <span class="mw-headline"> Коды состояния </span></h3>
+<dl><dd><div class="noprint"><i>Основная статья</i>&#58; <i><b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP" title="Список кодов состояния HTTP">Список кодов состояния HTTP</a></b></i></div>
+</dd></dl>
+<p>Код состояния является частью первой строки ответа сервера.
+Он представляет собой целое число из трех <a href="/w/index.php?title=%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B5_%D1%86%D0%B8%D1%84%D1%80%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Арабские цифры (такой страницы не существует)">арабских цифр</a><sup id="cite_ref-3digits_4-0" class="reference"><a href="#cite_note-3digits-4" title="">[4]</a></sup>.
+Первая цифра указывает на <b>класс состояния</b>.
+За кодом ответа обычно следует отделённая пробелом поясняющая фраза на английском языке, которая разъясняет человеку причину именно такого ответа. Примеры:
+</p>
+<pre>201 Webpage Created
+403 Access allowed only for registered users
+507 Insufficient Storage
+</pre>
+<p>Клиент узнаёт по коду ответа о результатах его запроса и определяет, какие действия ему предпринимать дальше.
+Набор кодов состояния является стандартом, и они описаны в соответствующих документах <a href="/wiki/RFC" title="RFC">RFC</a>.
+Введение новых кодов должно производиться только после согласования с <a href="/w/index.php?title=IETF&amp;action=edit&amp;redlink=1" class="new" title="IETF (такой страницы не существует)">IETF</a>.
+Клиент может не знать все коды состояния, но он обязан отреагировать в соответствии с классом кода.
+В настоящее время выделено пять классов кодов состояния.
+</p><p>В настоящее время выделено пять классов кодов состояния.
+</p>
+<dl><dt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#1xx" title="Список кодов состояния HTTP"><tt>1xx</tt> Informational</a> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Информационный</span></i>)
+</dt><dd> В этот класс выделены коды, информирующие о процессе передачи. В HTTP/1.0 сообщения с такими кодами должны игнорироваться. В HTTP/1.1 клиент должен быть готов принять этот класс сообщений как обычный ответ, но ничего отправлять серверу не нужно. Сами сообщения от сервера содержат только стартовую строку ответа и, если требуется, несколько специфичных для ответа полей заголовка. <a href="/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Прокси-сервер">Прокси-сервера</a> подобные сообщения должны отправлять дальше от сервера к клиенту.
+</dd></dl>
+<dl><dt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#2xx" title="Список кодов состояния HTTP"><tt>2xx</tt> Success</a> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Успешно</span></i>)
+</dt><dd> Сообщения данного класса информируют о случаях успешного принятия и обработки запроса клиента. В зависимости от статуса сервер может ещё передать заголовки и тело сообщения.
+</dd></dl>
+<dl><dt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#3xx" title="Список кодов состояния HTTP"><tt>3xx</tt> Redirection</a> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Перенаправление</span></i>)
+</dt><dd> Коды класса 3xx сообщают клиенту что для успешного выполнения операции необходимо сделать другой запрос (как правило по другому URI). Из данного класса пять кодов <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#301" title="Список кодов состояния HTTP">301</a></tt>, <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#302" title="Список кодов состояния HTTP">302</a></tt>, <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#303" title="Список кодов состояния HTTP">303</a></tt>, <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#305" title="Список кодов состояния HTTP">305</a></tt> и <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#307" title="Список кодов состояния HTTP">307</a></tt> относятся непосредственно к перенаправлениям (<a href="/w/index.php?title=%D0%96%D0%B0%D1%80%D0%B3%D0%BE%D0%BD&amp;action=edit&amp;redlink=1" class="new" title="Жаргон (такой страницы не существует)">жарг.</a> <i>редирект</i>). Адрес, по которому клиенту следует произвести запрос, сервер указывает в заголовке <tt>Location</tt>. При этом допускается использование фрагментов в целевом URI.
+</dd></dl>
+<dl><dt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#4xx" title="Список кодов состояния HTTP"><tt>4xx</tt> Client Error</a> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Ошибка клиента</span></i>)
+</dt><dd> Класс кодов 4xx предназначен для указания ошибок со стороны клиента. При использовании всех методов, кроме <tt>HEAD</tt>, сервер должен вернуть в теле сообщения гипертекстовое пояснение для пользователя.
+</dd></dl>
+<dl><dd> Для запоминания значений кодов с 400 по 417 существуют приёмы иллюстративной <a href="/w/index.php?title=%D0%9C%D0%BD%D0%B5%D0%BC%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Мнемотехника (такой страницы не существует)">мнемотехники</a><sup id="cite_ref-flickr_5-0" class="reference"><a href="#cite_note-flickr-5" title="">[5]</a></sup>
+</dd></dl>
+<dl><dt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#5xx" title="Список кодов состояния HTTP"><tt>5xx</tt> Server Error</a> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Ошибка сервера</span></i>)
+</dt><dd> Коды 5xx выделены под случаи неудачного выполнения операции по вине сервера. Для всех ситуаций, кроме использования метода <tt>HEAD</tt>, сервер должен включать в тело сообщения объяснение, которое клиент отобразит пользователю.
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8" id=".D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8"></a><h3> <span class="mw-headline"> Заголовки </span></h3>
+<dl><dd><div class="noprint"><i>Основные статьи</i>&#58; <i><b><a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP" title="Заголовки HTTP">Заголовки HTTP</a></b></i>,&#32;<i><b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP" title="Список заголовков HTTP">Список заголовков HTTP</a></b></i></div>
+</dd></dl>
+<p><b>Заголовки HTTP</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">HTTP Headers</span></i>) — это строки в HTTP-сообщении, содержащие разделённую двоеточием пару параметр-значение. Формат заголовков соответствует общему формату заголовков текстовых сетевых сообщений <a href="/w/index.php?title=DARPA&amp;action=edit&amp;redlink=1" class="new" title="DARPA (такой страницы не существует)">ARPA</a> (см. <a href="http://tools.ietf.org/html/rfc822" class="external" title="http://tools.ietf.org/html/rfc822">RFC 822</a>). Заголовки должны отделяться от тела сообщения хотя бы одной пустой строкой.
+</p><p>Примеры заголовков:
+</p>
+<pre>Server: Apache/2.2.11 (Win32) PHP/5.3.0
+Last-Modified: Sat, 16 Jan 2010 21:16:42 GMT
+Content-Type: text/plain; charset=windows-1251
+Content-Language: ru
+</pre>
+<p>В примере выше каждая строка представляет собой один заголовок.
+При этом то, что находится до первого двоеточия, называется <i>именем</i> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">name</span></i>), а что после неё — <i>значением</i> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">value</span></i>).
+</p><p>Все заголовки разделяются на четыре основных группы:
+</p>
+<ol><li> <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP#.D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D0.B7.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8" title="Список заголовков HTTP">General Headers</a></b> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Основные заголовки</span></i>) — должны включаться в любое сообщение клиента и сервера.
+</li><li> <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP#.D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0" title="Список заголовков HTTP">Request Headers</a></b> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Заголовки запроса</span></i>) — используются только в запросах клиента.
+</li><li> <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP#.D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8_.D0.BE.D1.82.D0.B2.D0.B5.D1.82.D0.B0" title="Список заголовков HTTP">Response Headers</a></b> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Заголовки ответа</span></i>) — только для ответов от сервера.
+</li><li> <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP#.D0.97.D0.B0.D0.B3.D0.BE.D0.BB.D0.BE.D0.B2.D0.BA.D0.B8_.D1.81.D1.83.D1.89.D0.BD.D0.BE.D1.81.D1.82.D0.B8" title="Список заголовков HTTP">Entity Headers</a></b> (<a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Заголовки сущности</span></i>) — сопровождают каждую сущность сообщения.
+</li></ol>
+<p>Именно в таком порядке рекомендуется посылать заголовки получателю.
+</p><p>Все необходимые для функционирования HTTP заголовки описаны в основных <a href="/wiki/RFC" title="RFC">RFC</a>, ссылки на которые есть в конце этой статьи.
+При этом если вам не будет хватать существующих, то можете смело вводить свои.
+Традиционно к именам таких дополнительных заголовков добавляют префикс «<tt>X-</tt>» для избежания конфликта имён с возможно существующими.
+Например, как в заголовках <tt>X-Powered-By</tt> или <tt>X-Cache</tt>.
+Некоторые разработчики используют свои индивидуальные префиксы.
+Примерами таких заголовков могут служить <tt>Ms-Echo-Request</tt> и <tt>Ms-Echo-Reply</tt>, введённые корпорацией Microsoft для расширения <a href="/w/index.php?title=WebDAV&amp;action=edit&amp;redlink=1" class="new" title="WebDAV (такой страницы не существует)">WebDAV</a>.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A2.D0.B5.D0.BB.D0.BE_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D1.8F" id=".D0.A2.D0.B5.D0.BB.D0.BE_.D1.81.D0.BE.D0.BE.D0.B1.D1.89.D0.B5.D0.BD.D0.B8.D1.8F"></a><h3> <span class="mw-headline"> Тело сообщения </span></h3>
+<table class="metadata plainlinks ambox ambox-talk">
+<tr>
+<td class="ambox-image"><div><a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:StubSectionToBeWrittenByMithgol.png" title="Файл:StubSectionToBeWrittenByMithgol.png">Файл:StubSectionToBeWrittenByMithgol.png</a></div>
+</td><td class="ambox-text"><b>Этот раздел статьи ещё <a href="/w/index.php?title=%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%97%D0%B0%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&amp;action=edit&amp;redlink=1" class="new" title="Википедия:Заготовка статьи (такой страницы не существует)">не написан</a>.</b><div class="ambox-text-small">Согласно замыслу одного из участников Википедии, на этом месте должен располагаться <span style="white-space: nowrap;">специальный раздел.</span><br />Вы можете помочь проекту, написав этот раздел.</div>
+</td><td class="widthhack">
+</td></tr></table>
+<p><br />
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80.D1.8B_.D0.B4.D0.B8.D0.B0.D0.BB.D0.BE.D0.B3.D0.BE.D0.B2_HTTP" id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80.D1.8B_.D0.B4.D0.B8.D0.B0.D0.BB.D0.BE.D0.B3.D0.BE.D0.B2_HTTP"></a><h2> <span class="mw-headline"> Примеры диалогов HTTP </span></h2>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9E.D0.B1.D1.8B.D1.87.D0.BD.D1.8B.D0.B9_GET-.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81" id=".D0.9E.D0.B1.D1.8B.D1.87.D0.BD.D1.8B.D0.B9_GET-.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81"></a><h3> <span class="mw-headline"> Обычный GET-запрос </span></h3>
+<p>Запрос клиента:
+</p>
+<pre>GET /wiki/<i>страница</i> HTTP/1.1
+Host: ru.wikipedia.org
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.9b5) Gecko/2008050509 Firefox/3.0b5
+Accept: text/html
+Connection: close
+</pre>
+<p>Ответ сервера:
+</p>
+<pre>HTTP/1.0 200 OK
+Date: Wed, 11 Feb 2009 11:20:59 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.4-2ubuntu5wm1
+Last-Modified: Wed, 11 Feb 2009 11:20:59 GMT
+Content-Language: ru
+Content-Type: text/html; charset=utf-8
+Content-Length: 1234
+Connection: close
+
+<i>(далее следует запрошенная страница в <a href="/wiki/HTML" title="HTML">HTML</a>)</i>
+</pre>
+<p>Аналогично выглядит ответ 203.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D0.B5.D1.80.D0.B5.D0.BD.D0.B0.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F" id=".D0.9F.D0.B5.D1.80.D0.B5.D0.BD.D0.B0.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D1.8F"></a><h3> <span class="mw-headline"> Перенаправления </span></h3>
+<p>Предположим, что у вымышленной компании Example Corp. есть основной сайт по адресу http://example.com и домен-псевдоним example-corp.com.
+Клиент посылает запрос страницы «О компании» на вторичный домен (часть заголовков опущена):
+</p>
+<pre><a href="#GET" title="">GET</a> /about.html HTTP/1.1
+Host: www.example-corp.com
+User-Agent: MyLonelyBrowser/5.0
+</pre>
+<p>Так как домен example-corp.com не является основным и компания не собирается в будущем его использовать в других целях, их сервер вернёт код для постоянного перенаправления, указав в заголовке <tt>Location</tt> целевой <a href="/wiki/URL" title="URL">URL</a>:
+</p>
+<pre>HTTP/1.x <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#301" title="Список кодов состояния HTTP">301 Moved Permanently</a></b>
+<b>Location: http://www.example.com/about.html#contacts</b>
+Date: Thu, 19 Feb 2009 11:08:01 GMT
+Server: Apache/2.2.4
+Content-Type: text/html; charset=windows-1251
+Content-Length: 110
+<span style="color: #888"><i>(пустая строка)</i></span>
+&lt;html&gt;&lt;body&gt;&lt;a href=&quot;http://www.example.com/about.html#contacts&quot;&gt;Click here&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;
+</pre>
+<p>В заголовке <tt>Location</tt> можно указывать фрагменты как данном примере.
+Браузер не указал фрагмент в запросе, так как его интересует весь документ.
+Но он автоматически прокрутит страницу до фрагмента «contacts», как только загрузит её.
+В тело ответа также был помещён коротенький HTML-документ с ссылкой, с помощью которой посетитель попадёт на целевую страницу, если браузер не перейдёт на неё автоматически. Заголовок <tt>Content-Type</tt> содержит характеристики именно этого HTML-пояснения, а не документа, который находится по целевому URL.
+</p><p>Допустим, эта же компания Example Corp. имеет несколько региональных представительств по всему миру. И для каждого представительства у них есть сайт с соответствующим <a href="/w/index.php?title=%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B3%D0%BE_%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Национальный домен верхнего уровня (такой страницы не существует)">ccTLD</a>. Запрос главной страницы основного сайта example.com может выглядеть так:
+</p>
+<pre><a href="#GET" title="">GET</a> / HTTP/1.1
+Host: www.example.com
+User-Agent: MyLonelyBrowser/5.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru,en-us;q=0.7,en;q=0.3
+Accept-Charset: windows-1251,utf-8;q=0.7,*;q=0.7
+</pre>
+<p>Сервер принял во внимание заголовок <tt>Accept-Language</tt> и сформировал ответ с временным перенаправлением на российский сервер example.ru, указав его адрес в заголовке <tt>Location</tt>:
+</p>
+<pre>HTTP/1.x <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#302" title="Список кодов состояния HTTP">302 Found</a></b>
+<b>Location: http://www.example.ru/</b>
+Cache-Control: private
+Date: Thu, 19 Feb 2009 11:08:01 GMT
+Server: Apache/2.2.6
+Content-Type: text/html; charset=windows-1251
+Content-Length: 82
+<span style="color: #888"><i>(пустая строка)</i></span>
+&lt;html&gt;&lt;body&gt;&lt;a href=&quot;http://www.example.ru&quot;&gt;Example Corp. Россия&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;
+</pre>
+<p>Обратите внимание на заголовок <tt>Cache-Control</tt>.
+Значение «private» сообщает остальным серверам (в первую очередь прокси) что ответ может кэшироваться на стороне клиента.
+В противном случае не исключено, что следующие посетители из других стран будут переходить всё время не в своё представительство.
+</p><p>Для перенаправления также используются коды ответа <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#303" title="Список кодов состояния HTTP">303</a></tt> (See Other) и <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#307" title="Список кодов состояния HTTP">307</a></tt> (Temporary Redirect).
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.94.D0.BE.D0.BA.D0.B0.D1.87.D0.BA.D0.B0_.D0.B8_.D1.84.D1.80.D0.B0.D0.B3.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D1.80.D0.BD.D0.BE.D0.B5_.D1.81.D0.BA.D0.B0.D1.87.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5" id=".D0.94.D0.BE.D0.BA.D0.B0.D1.87.D0.BA.D0.B0_.D0.B8_.D1.84.D1.80.D0.B0.D0.B3.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D1.80.D0.BD.D0.BE.D0.B5_.D1.81.D0.BA.D0.B0.D1.87.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"></a><h3> <span class="mw-headline"> Докачка и фрагментарное скачивание </span></h3>
+<p>Допустим, вымышленная организация предлагает скачать с сайта видео прошедшей конференции по адресу http://example.org/conf-2009.avi объёмом примерно 160 <a href="/w/index.php?title=%D0%9C%D0%91&amp;action=edit&amp;redlink=1" class="new" title="МБ (такой страницы не существует)">МБ</a>.
+Рассмотрим, как происходит докачивание этого файла в случае сбоя и как <a href="/wiki/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80_%D0%B7%D0%B0%D0%BA%D0%B0%D1%87%D0%B5%D0%BA" title="Менеджер закачек">менеджер закачек</a> организовал бы многопоточную загрузку нескольких фрагментов.
+</p><p>В обоих случаях клиенты произведут свой первый запрос наподобие этого:
+</p>
+<pre>GET /conf-2009.avi HTTP/1.0
+Host: example.org
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)
+Referer: http://example.org/
+</pre>
+<p>Заголовок <tt>Referer</tt> указывает, что файл был запрошен с главной страницы сайта. Менеджеры закачек обычно тоже его указывают, чтобы эмулировать переход со страницы сайта. Без него сервер может ответить <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#403" title="Список кодов состояния HTTP">403</a></tt> (Access Forbidden), если не допускаются запросы с других сайтов. В нашем случае сервер вернул успешный ответ:
+</p>
+<pre>HTTP/1.1 <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#200" title="Список кодов состояния HTTP">200 OK</a>
+Date: Thu, 19 Feb 2009 12:27:04 GMT
+Server: Apache/2.2.3
+Last-Modified: Wed, 18 Jun 2003 16:05:58 GMT
+ETag: "56d-9989200-1132c580"
+Content-Type: video/x-msvideo
+<b>Content-Length: 160993792</b>
+<b>Accept-Ranges: bytes</b>
+Connection: close
+<span style="color: #888"><i>(пустая строка)</i></span>
+<span style="color: #555"><i>(двоичное содержимое всего файла)</i></span>
+</pre>
+<p>Заголовок <tt>Accept-Ranges</tt> информирует клиента о том, что он может запрашивать у сервера фрагменты, указывая их смещения от начала файла в байтах. Если этот заголовок отсутствует, то клиент может предупредить пользователя, что докачать файл, скорее всего, не удастся.
+Исходя из значения заголовка <tt>Content-Length</tt>, менеджер закачек поделит весь объём на равные фрагменты и запросит их по отдельности, организовав несколько потоков.
+Если сервер не укажет размер, то клиенту параллельное скачивание реализовать не удастся, но при этом он сможет докачивать файл, пока сервер не ответит <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#416" title="Список кодов состояния HTTP">416</a> (Requested Range Not Satisfiable).
+</p><p>Допустим, на 84-ом мегабайте соединение с Интернетом прервалось и процесс загрузки приостановился.
+Когда соединение с Интернетом было восстановлено, браузер автоматически послал новый запрос на сервер, но с указанием выдать содержимое с 84-ого мегабайта:
+</p>
+<pre>GET /conf-2009.avi HTTP/1.0
+Host: example.org
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)
+<b>Range: bytes=88080384-</b>
+Referer: http://example.org/
+</pre>
+<p>Сервер не обязан помнить, какие и от кого запросы были до этого, и поэтому клиент снова вставил заголовок <tt>Referer</tt>, как будто это его самый первый запрос.
+Указанное значение заголовка <tt>Range</tt> говорит серверу — «выдай содержимое от 88080384-ого байта до самого конца».
+В связи с этим сервер вернёт ответ:
+</p>
+<pre>HTTP/1.1 <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206" title="Список кодов состояния HTTP">206 Partial Content</a></b>
+Date: Thu, 19 Feb 2009 12:27:08 GMT
+Server: Apache/2.2.3
+Last-Modified: Wed, 18 Jun 2003 16:05:58 GMT
+ETag: "56d-9989200-1132c580"
+<b>Accept-Ranges: bytes</b>
+<b>Content-Range: bytes 88080384-160993791/160993792</b>
+<b>Content-Length: 72913408</b>
+Connection: close
+Content-Type: video/x-msvideo
+<span style="color: #888"><i>(пустая строка)</i></span>
+<span style="color: #555"><i>(двоичное содержимое от 84-ого мегабайта)</i></span>
+</pre>
+<p>Заголовок <tt>Accept-Ranges</tt> здесь уже не обязателен, так как клиент уже знает об этой возможности сервера. О том, что передаётся фрагмент, клиент узнаёт по коду <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206" title="Список кодов состояния HTTP">206</a></tt> (Partial Content).
+В заголовке <tt>Content-Range</tt> содержится информация о данном фрагменте: номера начального и конечного байта, а после слэша — суммарный объём всего файла в байтах. Обратите внимание на заголовок <tt>Content-Length</tt> — в нём указывается размер тела сообщения, то есть передаваемого фрагмента. Если сервер вернёт несколько фрагментов, то Content-Length будет содержать их суммарный объём.
+</p><p>Теперь вернёмся к менеджеру закачек. Зная суммарный объём файла «conf-2009.avi», программа поделила его на 10 равных секций.
+Начальную менеджер загрузит при самом первом запросе, прервав соединение как только дойдёт до начала второго.
+Остальные он запросит отдельно. Например, 4-ая секция будет запрошена со следующими заголовками (часть заголовков опущена — см. полный пример выше):
+</p>
+<pre>GET /conf-2009.avi HTTP/1.0
+<b>Range: bytes=64397516-80496894</b>
+</pre>
+<p>Ответ сервера в этом случае будет следующим (часть заголовков опущена — см. полный пример выше):
+</p>
+<pre>HTTP/1.1 <b><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206" title="Список кодов состояния HTTP">206 Partial Content</a></b>
+<b>Accept-Ranges: bytes</b>
+<b>Content-Range: bytes 64397516-80496894/160993792</b>
+<b>Content-Length: 16099379</b>
+<span style="color: #888"><i>(пустая строка)</i></span>
+<span style="color: #555"><i>(двоичное содержимое 4-ой части)</i></span>
+</pre>
+<p>Если подобный запрос отправить серверу, который не поддерживает фрагменты, то он вернёт стандартный ответ <tt><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#200" title="Список кодов состояния HTTP">200</a></tt> (OK) как было показано в самом начале, но без заголовка <tt>Accept-Ranges</tt>.
+</p>
+<dl><dd> <i>См. также <a href="#.D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET" title="">частичные GET</a>, <a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP#.D0.91.D0.B0.D0.B9.D1.82.D0.BE.D0.B2.D1.8B.D0.B5_.D0.B4.D0.B8.D0.B0.D0.BF.D0.B0.D0.B7.D0.BE.D0.BD.D1.8B" title="Заголовки HTTP">байтовые диапазоны</a>, <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206" title="Список кодов состояния HTTP">ответ 206</a>, <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#416" title="Список кодов состояния HTTP">ответ 416</a>.</i>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D0.BC.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC.D1.8B_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0" id=".D0.9E.D1.81.D0.BD.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_.D0.BC.D0.B5.D1.85.D0.B0.D0.BD.D0.B8.D0.B7.D0.BC.D1.8B_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"></a><h2> <span class="mw-headline"> Основные механизмы протокола </span></h2>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET" id=".D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET"></a><h3> <span class="mw-headline"> Частичные GET </span></h3>
+<p>HTTP позволяет запросить не сразу всё содержимое ресурса, а только указанный фрагмент. Такие запросы называются <i>частичные <tt>GET</tt></i>, возможность их выполнения необязательна (но желательна) для серверов. Частичные <tt>GET</tt> в основном используются для <a href="/wiki/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80_%D0%B7%D0%B0%D0%BA%D0%B0%D1%87%D0%B5%D0%BA" title="Менеджер закачек">докачки файлов</a> и быстрого параллельного скачивания в нескольких потоках. Некоторые программы скачивают заголовок архива, выводят пользователю внутреннюю структуру, а потом уже запрашивают фрагменты с указанными элементами архива.
+</p><p>Для получения фрагмента клиент посылает серверу запрос с заголовком <tt>Range</tt>, указывая в нём необходимые <i><a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP#.D0.91.D0.B0.D0.B9.D1.82.D0.BE.D0.B2.D1.8B.D0.B5_.D0.B4.D0.B8.D0.B0.D0.BF.D0.B0.D0.B7.D0.BE.D0.BD.D1.8B" title="Заголовки HTTP">байтовые диапазоны</a></i>. Если сервер не понимает частичные запросы (игнорирует заголовок <tt>Range</tt>), то он вернёт всё содержимое со статусом <tt><a href="/w/index.php?title=HTTP_200&amp;action=edit&amp;redlink=1" class="new" title="HTTP 200 (такой страницы не существует)">200</a></tt>, как и при обычном <tt>GET</tt>. В случае успешного выполнения сервер возвращает вместо кода <tt>200</tt> ответ со статусом <tt>206</tt> (Partial Content), включая в ответ заголовок <tt>Content-Range</tt>. Сами фрагменты могут быть переданы двумя способами:
+</p>
+<ul><li> В ответе помещается заголовок <tt>Content-Range</tt> с указанием байтовых диапазонов. В соответствии с ними фрагменты последовательно помещаются в основное тело. При этом <tt>Content-Length</tt> должен соответствовать суммарному объёму всего тела.
+</li><li> Сервер указывает медиа тип <tt>multipart/byteranges</tt> для основного содержимого и передаёт фрагменты указывая соответствующий <tt>Content-Range</tt> для каждого элемента (см. также <a href="#.D0.9C.D0.BD.D0.BE.D0.B6.D0.B5.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B5" title="">Множественное содержимое</a>).
+</li></ul>
+<dl><dd> <i>См. также <a href="#.D0.94.D0.BE.D0.BA.D0.B0.D1.87.D0.BA.D0.B0_.D0.B8_.D1.84.D1.80.D0.B0.D0.B3.D0.BC.D0.B5.D0.BD.D1.82.D0.B0.D1.80.D0.BD.D0.BE.D0.B5_.D1.81.D0.BA.D0.B0.D1.87.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5" title="">пример диалога докачки и фрагментарного скачивания</a>.</i>
+</dd></dl>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A3.D1.81.D0.BB.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_GET" id=".D0.A3.D1.81.D0.BB.D0.BE.D0.B2.D0.BD.D1.8B.D0.B5_GET"></a><h3> <span class="mw-headline"> Условные GET </span></h3>
+<table class="metadata plainlinks ambox ambox-talk">
+<tr>
+<td class="ambox-image"><div><a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:StubSectionToBeWrittenByMithgol.png" title="Файл:StubSectionToBeWrittenByMithgol.png">Файл:StubSectionToBeWrittenByMithgol.png</a></div>
+</td><td class="ambox-text"><b>Этот раздел статьи ещё <a href="/w/index.php?title=%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%97%D0%B0%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&amp;action=edit&amp;redlink=1" class="new" title="Википедия:Заготовка статьи (такой страницы не существует)">не написан</a>.</b><div class="ambox-text-small">Согласно замыслу одного из участников Википедии, на этом месте должен располагаться <span style="white-space: nowrap;">специальный раздел.</span><br />Вы можете помочь проекту, написав этот раздел.</div>
+</td><td class="widthhack">
+</td></tr></table>
+<p><br />
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A1.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B3.D0.BE" id=".D0.A1.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B3.D0.BE"></a><h3> <span class="mw-headline"> Согласование содержимого </span></h3>
+<p><b>Согласование содержимого</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Content Negotiation</span></i>) — механизм автоматического определения необходимого ресурса при наличии нескольких разнотипных версий документа. Субъектами согласования могут быть не только ресурсы сервера, но и возвращаемые страницы с сообщениями об ошибках (<a href="/w/index.php?title=HTTP_403&amp;action=edit&amp;redlink=1" class="new" title="HTTP 403 (такой страницы не существует)">403</a>, <a href="/w/index.php?title=HTTP_404&amp;action=edit&amp;redlink=1" class="new" title="HTTP 404 (такой страницы не существует)">404</a> и т. п.).
+</p><p>Различают два основных типа согласований:
+</p>
+<ul><li> <b>Управляемое сервером</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Server-Driven</span></i>).
+</li><li> <b>Управляемое клиентом</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Agent-Driven</span></i>).
+</li></ul>
+<p>Одновременно могут быть использованы оба типа или каждый из них по отдельности.
+</p><p>В основной спецификации по протоколу (<a href="http://tools.ietf.org/html/rfc2616" class="external" title="http://tools.ietf.org/html/rfc2616">RFC 2616</a>) также выделяется так называемое <b>прозрачное согласование</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a> <i><span lang="en">Transparent Negotiation</span></i>) как предпочтительный вариант комбинирования обоих типов. Последний механизм не следует путать с независимой технологией <b>Transparent Content Negotiation</b> (<i>TCN</i>, <a href="/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Русский язык">русск.</a> <i><span lang="ru">Прозрачное согласование содержимого</span></i>, см. <a href="http://tools.ietf.org/html/rfc2295" class="external" title="http://tools.ietf.org/html/rfc2295">RFC 2295</a>), которая не является частью протокола HTTP, но может использоваться с ним. У обоих существенное различие в принципе работы и самом значении слова «прозрачное» (<i>transparent</i>). В спецификации по HTTP под прозрачностью подразумевается, что процесс не заметен для клиента и сервера, а в технологии TCN прозрачность означает доступность полного списка вариантов ресурса для всех участников процесса доставки данных.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D0.BE.D0.BC" id=".D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D1.81.D0.B5.D1.80.D0.B2.D0.B5.D1.80.D0.BE.D0.BC"></a><h4> <span class="mw-headline"> Управляемое сервером </span></h4>
+<p>При наличии нескольких версий ресурса сервер может анализировать заголовки запроса клиента, чтобы выдать, по его мнению, наиболее подходящую. В основном анализируются заголовки <tt>Accept</tt>, <tt>Accept-Charset</tt>, <tt>Accept-Encoding</tt>, <tt>Accept-Languages</tt> и <tt><a href="/wiki/User_Agent" title="User Agent">User-Agent</a></tt>. Серверу желательно включать в ответ заголовок <tt>Vary</tt> с указанием параметров, по которым различается содержимое по запрашиваемому <a href="/wiki/URI" title="URI">URI</a>.
+</p><p>Географическое положение клиента можно определить по удалённому <a href="/w/index.php?title=IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81&amp;action=edit&amp;redlink=1" class="new" title="IP-адрес (такой страницы не существует)">IP-адресу</a>.
+</p><p>Управляемое сервером согласование имеет несколько недостатков:
+</p>
+<ul><li> Сервер только предполагает, какой вариант наиболее предпочтителен для конечного пользователя, но не может знать точно, что именно нужно в данный момент (например, версия на русском языке или английском).
+</li><li> Заголовков группы Accept передаётся много, а ресурсов с несколькими вариантами — мало. Из-за этого оборудование испытывает избыточную нагрузку.
+</li><li> Общему кэшу создаётся ограничение возможности выдавать один и тот же ответ на идентичные запросы от разных пользователей.
+</li><li> Передача заголовков Accept также наносит урон личной жизни пользователя, раскрывая некоторые сведения о его предпочтениях.
+</li></ul>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D0.BA.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D0.BE.D0.BC" id=".D0.A3.D0.BF.D1.80.D0.B0.D0.B2.D0.BB.D1.8F.D0.B5.D0.BC.D0.BE.D0.B5_.D0.BA.D0.BB.D0.B8.D0.B5.D0.BD.D1.82.D0.BE.D0.BC"></a><h4> <span class="mw-headline"> Управляемое клиентом </span></h4>
+<p>В данном случае тип содержимого определяется только на стороне клиента. Для этого сервер возвращает с кодом состояния <tt>300</tt> (Multiple Choices) или <tt>406</tt> (Not Acceptable) список вариантов, среди которых пользователь выбирает подходящий.
+Управляемое клиентом согласование хорошо, когда содержимое различается по самым частым параметрам (например, по языку и кодировке) и используется публичный кэш.
+Основной недостаток — лишняя нагрузка, так как приходится делать дополнительный запрос, чтобы получить нужное содержимое.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.BE.D0.B7.D1.80.D0.B0.D1.87.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5" id=".D0.9F.D1.80.D0.BE.D0.B7.D1.80.D0.B0.D1.87.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B3.D0.BB.D0.B0.D1.81.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"></a><h4> <span class="mw-headline"> Прозрачное согласование </span></h4>
+<p>Данное согласование полностью прозрачно для клиента и сервера. В данном случае используется общий кэш, в котором содержится список вариантов, как для управляемого клиентом согласования. Если кэш понимает все эти варианты, то он сам делает выбор, как при управляемом сервером согласовании. Это снижает нагрузки с исходного сервера и исключает дополнительный запрос со стороны клиента.
+</p><p>В основной спецификации по протоколу HTTP механизм прозрачного согласования подробно не описан.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9C.D0.BD.D0.BE.D0.B6.D0.B5.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B5" id=".D0.9C.D0.BD.D0.BE.D0.B6.D0.B5.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.BE.D0.B5_.D1.81.D0.BE.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.BC.D0.BE.D0.B5"></a><h3> <span class="mw-headline"> Множественное содержимое </span></h3>
+<dl><dd><div class="noprint"><i>Основная статья</i>&#58; <i><b><a href="/w/index.php?title=MIME&amp;action=edit&amp;redlink=1" class="new" title="MIME (такой страницы не существует)">MIME</a></b></i></div>
+</dd></dl>
+<p>Протокол HTTP поддерживает передачу нескольких сущностей в пределах одного сообщения. Причём сущности могут передаваться не только в виде одноуровневой последовательности, но в виде <a href="/wiki/%D0%98%D0%B5%D1%80%D0%B0%D1%80%D1%85%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0" title="Иерархическая структура">иерархии</a> с вложением элементов друг в друга. Для обозначения множественного содержимого используются медиатипы <tt>multipart/*</tt>. Работа с такими типами осуществляется по общим правилам, описанным в <a href="http://tools.ietf.org/html/rfc2046" class="external" title="http://tools.ietf.org/html/rfc2046">RFC 2046</a> (если иное не определено конкретным медиа типом). Если получателю не известно как работать с типом, то он обрабатывает его так же, как <tt>multipart/mixed</tt>.
+</p><p>Со стороны сервера сообщения со множественным содержимым могут посылаться в ответ на <i><a href="#.D0.A7.D0.B0.D1.81.D1.82.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_GET" title="">частичные <tt>GET</tt></a></i> при запросе нескольких фрагментов ресурса. В этом случае используется медиа тип <tt>multipart/byteranges</tt>.
+</p><p>Со стороны клиента чаще всего используются при отправке <a href="/wiki/HTML" title="HTML">HTML</a>-формы методом <tt>POST</tt>. Типичный пример: страницы отправки <a href="/w/index.php?title=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D1%87%D1%82%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Электронная почта (такой страницы не существует)">электронных писем</a> со вложенными файлами. При отправке такого письма браузер формирует сообщение типа <tt>multipart/form-data</tt>, интегрируя в него как отдельные части, введённые пользователем, тему письма, адрес получателя, сам текст и вложенные файлы:
+</p>
+<pre>POST /send-message.html HTTP/1.1
+Host: mail.example.com
+Referer: http://mail.example.com/send-message.html
+User-Agent: BrowserForDummies/4.67b
+Content-Type: multipart/form-data; boundary="<b>Asrf456BGe4h</b>"
+Content-Length: <span style="color: #888;"><i>(суммарный объём включая дочерние заголовки)</i></span>
+Connection: keep-alive
+Keep-Alive: 300
+<span style="color: #888;"><i>(пустая строка)</i></span>
+<span style="color: #888;"><i>(отсутствующая преамбула)</i></span>
+--<b>Asrf456BGe4h</b>
+Content-Disposition: form-data; name="DestAddress"
+<span style="color: #888;"><i>(пустая строка)</i></span>
+brutal-vasya@example.com
+--<b>Asrf456BGe4h</b>
+Content-Disposition: form-data; name="MessageTitle"
+<span style="color: #888;"><i>(пустая строка)</i></span>
+Я негодую
+--<b>Asrf456BGe4h</b>
+Content-Disposition: form-data; name="MessageText"
+<span style="color: #888;"><i>(пустая строка)</i></span>
+Привет, Василий! Твой ручной лев, которого ты оставил
+у меня на прошлой неделе, разодрал весь мой диван.
+Пожалуйста забери его скорее!
+Во вложении две фотки с последствиями.
+--<b>Asrf456BGe4h</b>
+Content-Disposition: form-data; name="AttachedFile1"; filename="horror-photo-1.jpg"
+Content-Type: image/jpeg
+<span style="color: #888;"><i>(пустая строка)</i></span>
+<span style="color: #555;"><i>(двоичное содержимое первой фотографии)</i></span>
+--<b>Asrf456BGe4h</b>
+Content-Disposition: form-data; name="AttachedFile2"; filename="horror-photo-2.jpg"
+Content-Type: image/jpeg
+<span style="color: #888;"><i>(пустая строка)</i></span>
+<span style="color: #555;"><i>(двоичное содержимое второй фотографии)</i></span>
+--<b>Asrf456BGe4h</b>--
+<span style="color: #888;"><i>(отсутствующий эпилог)</i></span>
+</pre>
+<p>В примере в заголовках <tt>Content-Disposition</tt> параметр <tt>name</tt> соответствует атрибуту <tt>name</tt> в HTML-тегах <tt>&lt;INPUT&gt;</tt> и <tt>&lt;TEXTAREA&gt;</tt>. Параметр <tt>filename</tt> равен исходному имени файла на компьютере пользователя. Более подробная информация о формировании HTML-форм и вложении файлов в <a href="http://tools.ietf.org/html/rfc1867" class="external" title="http://tools.ietf.org/html/rfc1867">RFC 1867</a>.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9E.D1.81.D0.BE.D0.B1.D0.B5.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0" id=".D0.9E.D1.81.D0.BE.D0.B1.D0.B5.D0.BD.D0.BD.D0.BE.D1.81.D1.82.D0.B8_.D0.BF.D1.80.D0.BE.D1.82.D0.BE.D0.BA.D0.BE.D0.BB.D0.B0"></a><h2> <span class="mw-headline"> Особенности протокола </span></h2>
+<p>Большинство протоколов предусматривают установление TCP-сессии, в ходе которой один раз происходит авторизация, и дальнейшие действия выполняются в контексте этой авторизации. HTTP же устанавливает отдельную TCP-сессию на каждый запрос; в более поздних версиях HTTP было разрешено делать несколько запросов в ходе одной TCP-сессии, но браузеры обычно запрашивают только страницу и включённые в неё объекты (картинки, каскадные стили и т. п.), а затем сразу разрывают TCP-сессию. Для поддержки авторизованного (неанонимного) доступа в HTTP используются <a href="/wiki/Cookies" title="Cookies">cookies</a>; причём такой способ авторизации позволяет сохранить сессию даже после перезагрузки клиента и сервера.
+</p><p>При доступе к данным по FTP или по файловым протоколам тип файла (точнее, тип содержащихся в нём данных) определяется по расширению имени файла, что не всегда удобно. HTTP перед тем, как передать сами данные, передаёт в заголовке строчку «Content-Type: тип/подтип», позволяющую клиенту однозначно определить, каким образом обрабатывать присланные данные. Это особенно важно при работе с CGI-скриптами, когда расширение имени файла указывает не на тип присылаемых клиенту данных, а на необходимость запуска данного файла на сервере и отправки клиенту результатов работы программы, записанной в этом файле (при этом один и тот же файл в зависимости от аргументов запроса и своих собственных соображений может порождать ответы разных типов — в простейшем случае картинки в разных форматах).
+</p><p>Кроме того, HTTP позволяет клиенту прислать на сервер параметры, которые будут переданы запускаемому CGI-скрипту. Для этого же в <a href="/wiki/HTML" title="HTML">HTML</a> были введены формы.
+</p><p>Перечисленные особенности HTTP позволили создавать поисковые машины (первой из которых стала AltaVista, созданная фирмой <a href="/w/index.php?title=DEC&amp;action=edit&amp;redlink=1" class="new" title="DEC (такой страницы не существует)">DEC</a>), форумы и Internet-магазины. Это превратило Internet из «академической игрушки» в «коммерческий сервис»: появились компании, основным полем деятельности которых стало предоставление доступа в Internet (компании-провайдеры) и создание сайтов.
+</p>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F" id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"></a><h2> <span class="mw-headline"> Примечания </span></h2>
+<div class="references-small" style="">
+<ol class="references"><li id="cite_note-2"><a href="#cite_ref-2" title="">↑</a> 
+Впервые спецификация HTTP/1.1 была опубликована в январе <a href="/w/index.php?title=1997&amp;action=edit&amp;redlink=1" class="new" title="1997 (такой страницы не существует)">1997</a> <a href="http://tools.ietf.org/html/rfc2068" class="external text" title="http://tools.ietf.org/html/rfc2068" rel="nofollow" target="_blank">RFC 2068</a>; в современной версии <a href="http://tools.ietf.org/html/rfc2616" class="external text" title="http://tools.ietf.org/html/rfc2616" rel="nofollow" target="_blank">RFC 2616</a> исправлены опечатки, местами улучшены терминология и оформление. Разъяснено также допустимое поведение клиента (браузера), сервера и <a href="/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Прокси-сервер">прокси-серверов</a> некоторых сомнительных ситуациях. То есть версия 1.1 появилась всё-таки в 1997 году.</li></ol>
+</div>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.98.D1.81.D1.82.D0.BE.D1.87.D0.BD.D0.B8.D0.BA.D0.B8" id=".D0.98.D1.81.D1.82.D0.BE.D1.87.D0.BD.D0.B8.D0.BA.D0.B8"></a><h2> <span class="mw-headline"> Источники </span></h2>
+<div class="references-small" style="">
+<ol class="references"><li id="cite_note-0"><a href="#cite_ref-0" title="">↑</a> <a href="http://net.compulenta.ru/322974/" class="external text" title="http://net.compulenta.ru/322974/" rel="nofollow" target="_blank">«Объём HTTP-трафика впервые превысил P2P»</a> — Компьюлента, 22 июня 2007. (<a href="http://www.ellacoya.com/news/pdf/2007/NXTcommEllacoyaMediaAlert.pdf" class="external text" title="http://www.ellacoya.com/news/pdf/2007/NXTcommEllacoyaMediaAlert.pdf" rel="nofollow" target="_blank">Официальный документ от Ellacoya Networks</a>)</li>
+<li id="cite_note-1"><a href="#cite_ref-1" title="">↑</a> <a href="http://www.osp.ru/cw/1998/20/29525/" class="external text" title="http://www.osp.ru/cw/1998/20/29525/" rel="nofollow" target="_blank">«HTTP-NG — объектно-ориентированный протокол передачи гипертекста»</a>, «Открытые системы», 29 мая 1998 г.<br /><a href="http://www.w3.org/Protocols/HTTP-NG/" class="external text" title="http://www.w3.org/Protocols/HTTP-NG/" rel="nofollow" target="_blank">«(Proposed) HTTP-NG Working Group»</a> — официальная страница W3C по разработке протокола HTTP-NG.</li>
+<li id="cite_note-http-spec-methods-3">↑ <sup><a href="#cite_ref-http-spec-methods_3-0" title="">3,0</a></sup> <sup><a href="#cite_ref-http-spec-methods_3-1" title="">3,1</a></sup> <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html" class="external text" title="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html" rel="nofollow" target="_blank">HTTP/1.1: Method Definitions</a>&#32;<span class="ref-info" title="на английском языке" style="font-size:85%; cursor:help; margin-left:0.2em; color:#888;">(англ.)</span>.&#32; <a href="/w/index.php?title=W3C&amp;action=edit&amp;redlink=1" class="new" title="W3C (такой страницы не существует)">W3C</a>.&#32;<small>Проверено 25 марта&#32;2007.</small></li>
+<li id="cite_note-3digits-4"><a href="#cite_ref-3digits_4-0" title="">↑</a> 
+См. первое предложение раздела «<a href="http://tools.ietf.org/html/rfc2068#section-6.1.1" class="external text" title="http://tools.ietf.org/html/rfc2068#section-6.1.1" rel="nofollow" target="_blank">6.1.1 Status Code and Reason Phrase</a>» в RFC 2068. На <a href="http://tools.ietf.org/html/rfc2068#page-40" class="external text" title="http://tools.ietf.org/html/rfc2068#page-40" rel="nofollow" target="_blank">стр. 40</a> есть также объявление в формате расширенной <a href="/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%91%D1%8D%D0%BA%D1%83%D1%81%D0%B0_%E2%80%94_%D0%9D%D0%B0%D1%83%D1%80%D0%B0" title="Форма Бэкуса — Наура">БНФ</a>-формы (<a href="/w/index.php?title=En:Augmented_Backus%E2%80%93Naur_Form&amp;action=edit&amp;redlink=1" class="new" title="En:Augmented Backus–Naur Form (такой страницы не существует)">Augmented BNF</a>) «<tt>extension-code = 3DIGIT</tt>» для кодов расширений.</li>
+<li id="cite_note-flickr-5"><a href="#cite_ref-flickr_5-0" title="">↑</a> <a href="http://www.flickr.com/photos/apelad/sets/72157594388426362/detail/" class="external text" title="http://www.flickr.com/photos/apelad/sets/72157594388426362/detail/" rel="nofollow" target="_blank">HTTP errors</a></li></ol>
+</div>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5" id=".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"></a><h2> <span class="mw-headline"> См. также </span></h2>
+<ul><li> <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP" title="Список кодов состояния HTTP">Список кодов состояния HTTP</a>
+</li><li> <a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP" title="Заголовки HTTP">Заголовки HTTP</a> (<a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP" title="Список заголовков HTTP">список</a>):
+<ul><li> <a href="/wiki/HTTP_referer" title="HTTP referer">Referer</a>
+</li><li> <a href="/wiki/User_Agent" title="User Agent">User-Agent</a>
+</li></ul>
+</li><li> <a href="/w/index.php?title=HTTP-Cookie&amp;action=edit&amp;redlink=1" class="new" title="HTTP-Cookie (такой страницы не существует)">Cookie</a>
+</li></ul>
+<p>Смежные протоколы и технологии:
+</p>
+<ul><li> <a href="/w/index.php?title=HTTPS&amp;action=edit&amp;redlink=1" class="new" title="HTTPS (такой страницы не существует)">Протокол HTTPS</a>
+</li><li> <a href="/w/index.php?title=Webdav&amp;action=edit&amp;redlink=1" class="new" title="Webdav (такой страницы не существует)">Протокол WebDAV</a>
+</li><li> <a href="/wiki/CGI" title="CGI">Интерфейс CGI</a>
+</li><li> <a href="/wiki/SPDY" title="SPDY">Протокол SPDY</a>
+</li></ul>
+<p>Программное обеспечение:
+</p>
+<ul><li> <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%B2" title="Список веб-серверов">Список веб-серверов</a>
+</li><li> <a href="/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%BE%D0%B2" title="Сравнение браузеров">Сравнение браузеров</a>
+</li><li> <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_UNIX-%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2" title="Список UNIX-демонов">Список UNIX-демонов</a>
+</li></ul>
+<p>Основы:
+</p>
+<ul><li> <a href="/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0" title="Всемирная паутина">Всемирная паутина</a>
+</li><li> <a href="/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82" title="Веб-сайт">Веб-сайт</a>
+</li><li> <a href="/wiki/%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" title="Веб-приложение">Веб-приложение</a>
+</li><li> <a href="/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Веб-страница">Веб-страница</a>
+</li></ul>
+<script type='text/javascript' src='/myimages/cmp_tls/wiki_add.js'></script><a name=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8" id=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"></a><h2> <span class="mw-headline"> Ссылки </span></h2>
+<ul><li> <a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Commons-logo.svg" title="Файл:Commons-logo.svg">Файл:Commons-logo.svg</a> Медиафайлы по теме <b><a href="http://commons.wikimedia.org/wiki/Category:HTTP" class="extiw" title="commons:Category:HTTP">HTTP</a></b> с <a href="/w/index.php?title=%D0%92%D0%B8%D0%BA%D0%B8%D1%81%D0%BA%D0%BB%D0%B0%D0%B4&amp;action=edit&amp;redlink=1" class="new" title="Викисклад (такой страницы не существует)">Викисклада</a>.
+</li><li> <a href="http://tools.ietf.org/html/rfc1945" class="external" title="http://tools.ietf.org/html/rfc1945">RFC 1945</a> — HTTP/1.0 (Май 1996), включает версию 0.9
+</li><li> <a href="http://tools.ietf.org/html/rfc2616" class="external" title="http://tools.ietf.org/html/rfc2616">RFC 2616</a> — HTTP/1.1 (Июнь 1999); см. также <a href="http://www.w3.org/Protocols/rfc2616/rfc2616.html" class="external text" title="http://www.w3.org/Protocols/rfc2616/rfc2616.html" rel="nofollow" target="_blank">в виде HTML</a>, <a href="ftp://ftp.isi.edu/in-notes/rfc2616.ps" class="external text" title="ftp://ftp.isi.edu/in-notes/rfc2616.ps" rel="nofollow" target="_blank">PostScript</a> и <a href="http://www.w3.org/Protocols/HTTP/1.1/rfc2616.pdf" class="external text" title="http://www.w3.org/Protocols/HTTP/1.1/rfc2616.pdf" rel="nofollow" target="_blank">PDF</a>;
+</li><li> <a href="http://purl.org/NET/http-errata" class="external text" title="http://purl.org/NET/http-errata" rel="nofollow" target="_blank">Найденные опечатки в спецификации HTTP/1.1</a>
+</li><li> <a href="http://www.lib.ru/WEBMASTER/rfc2068/" class="external text" title="http://www.lib.ru/WEBMASTER/rfc2068/" rel="nofollow" target="_blank">Перевод спецификации HTTP/1.1</a><span class="ref-info" title="на русском языке" style="font-size:85%; cursor:help; margin-left:0.2em; color:#888;">(рус.)</span>
+</li><li> <a href="http://www.w3.org/Protocols/HTTP/AsImplemented.html" class="external text" title="http://www.w3.org/Protocols/HTTP/AsImplemented.html" rel="nofollow" target="_blank">Первоначальный HTTP 0.9</a> <a href="/wiki/%D0%91%D0%B5%D1%80%D0%BD%D0%B5%D1%80%D1%81-%D0%9B%D0%B8,_%D0%A2%D0%B8%D0%BC" title="Бернерс-Ли, Тим">Тима Бернерса-Ли</a> (написанный и изданный в 1991 году)
+</li><li> <a href="http://www.w3.org/Protocols/HTTP/HTTP2.html" class="external text" title="http://www.w3.org/Protocols/HTTP/HTTP2.html" rel="nofollow" target="_blank">Ранняя версия исходного черновика</a> версии 1.0 1992 года <a href="/wiki/%D0%91%D0%B5%D1%80%D0%BD%D0%B5%D1%80%D1%81-%D0%9B%D0%B8,_%D0%A2%D0%B8%D0%BC" title="Бернерс-Ли, Тим">Тима Бернерса-Ли</a>
+</li><li> <a href="http://www.eventhelix.com/RealtimeMantra/Networking/http_sequence_diagram.pdf" class="external text" title="http://www.eventhelix.com/RealtimeMantra/Networking/http_sequence_diagram.pdf" rel="nofollow" target="_blank">Пример последовательности HTTP-обмена</a> между браузером и сервером (PDF)
+</li><li> <a href="http://apachedev.ru/2006/03/12/the-apache-modeling-project-glava-2-chast-1/" class="external text" title="http://apachedev.ru/2006/03/12/the-apache-modeling-project-glava-2-chast-1/" rel="nofollow" target="_blank">Функционирование HTTP сервера</a><span class="ref-info" title="на русском языке" style="font-size:85%; cursor:help; margin-left:0.2em; color:#888;">(рус.)</span>
+</li><li> <a href="http://www.flickr.com/photos/apelad/sets/72157594388426362/detail/" class="external text" title="http://www.flickr.com/photos/apelad/sets/72157594388426362/detail/" rel="nofollow" target="_blank">HTTP errors</a> — иллюстрации кодов ошибок с 400 по 417 для облегчения запоминания посредством <a href="/w/index.php?title=%D0%9C%D0%BD%D0%B5%D0%BC%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Мнемотехника (такой страницы не существует)">мнемотехники</a>.
+</li></ul>
+<table class="navbox collapsible autocollapse nowraplinks" style="margin:auto;">
+<tr><th colspan="2" style="text-align:center;width:100%;"><div style="float:left; width:6em; text-align:left;"><div class="noprint plainlinksneverexpand" style="background-color: transparent; padding: 0; font-size:xx-small; color:#000000; white-space: nowrap;"><a href="/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:URI_scheme" title="Шаблон:URI scheme"><span style="color:#002bb8;" title="Просмотр этого шаблона">п</span></a>·<a href="/w/index.php?title=%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0:URI_scheme&amp;action=edit&amp;redlink=1" class="new" title="Обсуждение шаблона:URI scheme (такой страницы не существует)"><span style="color:#002bb8;" title="Обсуждение этого шаблона">о</span></a>·<a href="http://www.sbup.com/w/index.php?title=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:URI_scheme&amp;action=edit" class="external text" title="http://www.sbup.com/w/index.php?title=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:URI_scheme&amp;action=edit" target="_blank"><span style="color:#002bb8;" title="Вы можете отредактировать этот шаблон. Пожалуйста, используйте клавишу предварительного просмотра перед сохранением">р</span></a></div></div><span style="font-size:110%;">Схемы <a href="/wiki/URI" title="URI">URI</a></span></th>
+</tr><tr><th style="white-space:nowrap;">Официальные</th>
+<td style="width:100%;">
+<a href="/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_AAA" title="Протокол AAA">aaa</a>:&nbsp;&bull; <a href="/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_AAA" title="Протокол AAA">aaas</a>:&nbsp;&bull; <a href="/w/index.php?title=Application_Configuration_Access_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Application Configuration Access Protocol (такой страницы не существует)">acap</a>:&nbsp;&bull; <a href="http://www.rfc-editor.org/rfc/rfc4324.txt" class="extiw" title="rfc:4324">cap</a>:&nbsp;&bull; <a href="/w/index.php?title=MIME&amp;action=edit&amp;redlink=1" class="new" title="MIME (такой страницы не существует)">cid</a>:&nbsp;&bull; <a href="/w/index.php?title=Crid&amp;action=edit&amp;redlink=1" class="new" title="Crid (такой страницы не существует)">crid</a>:&nbsp;&bull;  <a href="/wiki/Data:_URL" title="Data: URL">data</a>:&nbsp;&bull; <a href="/w/index.php?title=WebDAV&amp;action=edit&amp;redlink=1" class="new" title="WebDAV (такой страницы не существует)">dav</a>:&nbsp;&bull; <a href="/w/index.php?title=DICT&amp;action=edit&amp;redlink=1" class="new" title="DICT (такой страницы не существует)">dict</a>:&nbsp;&bull; <a href="/wiki/DNS" title="DNS">dns</a>:&nbsp;&bull; <a href="/w/index.php?title=%D0%A4%D0%B0%D0%BA%D1%81&amp;action=edit&amp;redlink=1" class="new" title="Факс (такой страницы не существует)">fax</a>:&nbsp;&bull;  <a href="/w/index.php?title=File_URI_scheme&amp;action=edit&amp;redlink=1" class="new" title="File URI scheme (такой страницы не существует)">file</a>:&nbsp;&bull; <a href="/w/index.php?title=FTP&amp;action=edit&amp;redlink=1" class="new" title="FTP (такой страницы не существует)">ftp</a>:&nbsp;&bull; <a href="http://www.rfc-editor.org/rfc/rfc3368.txt" class="extiw" title="rfc:3368">go</a>:&nbsp;&bull; <a href="/w/index.php?title=Gopher_(%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB)&amp;action=edit&amp;redlink=1" class="new" title="Gopher (сетевой протокол) (такой страницы не существует)">gopher</a>:&nbsp;&bull; <a href="/w/index.php?title=H.323&amp;action=edit&amp;redlink=1" class="new" title="H.323 (такой страницы не существует)">h323</a>:&nbsp;&bull; <strong class="selflink">http</strong>:&nbsp;&bull; <a href="/w/index.php?title=HTTPS&amp;action=edit&amp;redlink=1" class="new" title="HTTPS (такой страницы не существует)">https</a>:&nbsp;&bull; <a href="/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BC%D0%B3%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0_%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8" title="Программа мгновенного обмена сообщениями">im</a>:&nbsp;&bull; <a href="/w/index.php?title=IMAP&amp;action=edit&amp;redlink=1" class="new" title="IMAP (такой страницы не существует)">imap</a>:&nbsp;&bull; <a href="/w/index.php?title=LDAP&amp;action=edit&amp;redlink=1" class="new" title="LDAP (такой страницы не существует)">ldap</a>:&nbsp;&bull; <a href="/w/index.php?title=SMTP&amp;action=edit&amp;redlink=1" class="new" title="SMTP (такой страницы не существует)">mailto</a>:&nbsp;&bull; <a href="/w/index.php?title=MIME&amp;action=edit&amp;redlink=1" class="new" title="MIME (такой страницы не существует)">mid</a>:&nbsp;&bull; <a href="/wiki/Usenet" title="Usenet">news</a>:&nbsp;&bull; <a href="/w/index.php?title=Network_File_System&amp;action=edit&amp;redlink=1" class="new" title="Network File System (такой страницы не существует)">nfs</a>:&nbsp;&bull; <a href="/w/index.php?title=NNTP&amp;action=edit&amp;redlink=1" class="new" title="NNTP (такой страницы не существует)">nntp</a>:&nbsp;&bull; <a href="/w/index.php?title=POP3&amp;action=edit&amp;redlink=1" class="new" title="POP3 (такой страницы не существует)">pop</a>:&nbsp;&bull; <a href="/w/index.php?title=Presence_information&amp;action=edit&amp;redlink=1" class="new" title="Presence information (такой страницы не существует)">pres</a>:&nbsp;&bull; <a href="/w/index.php?title=RTSP&amp;action=edit&amp;redlink=1" class="new" title="RTSP (такой страницы не существует)">rtsp</a>:&nbsp;&bull; <a href="/wiki/SIP" title="SIP">sip</a>:&nbsp;&bull; <a href="/w/index.php?title=Sips_URI_scheme&amp;action=edit&amp;redlink=1" class="new" title="Sips URI scheme (такой страницы не существует)">sips</a>:&nbsp;&bull; <a href="/w/index.php?title=SNMP&amp;action=edit&amp;redlink=1" class="new" title="SNMP (такой страницы не существует)">snmp</a>:&nbsp;&bull; <a href="/w/index.php?title=POTS&amp;action=edit&amp;redlink=1" class="new" title="POTS (такой страницы не существует)">tel</a>:&nbsp;&bull; <a href="/w/index.php?title=Telnet&amp;action=edit&amp;redlink=1" class="new" title="Telnet (такой страницы не существует)">telnet</a>:&nbsp;&bull; <a href="/wiki/URN" title="URN">urn</a>:&nbsp;&bull; <a href="/wiki/WAIS" title="WAIS">wais</a>:&nbsp;&bull; <a href="/w/index.php?title=Jabber&amp;action=edit&amp;redlink=1" class="new" title="Jabber (такой страницы не существует)">xmpp</a>:</td></tr><tr><th style="white-space:nowrap;">Неофициальные</th>
+<td style="width:100%;background:#f0f0f0">
+<a href="/wiki/About:_URI" title="About: URI">about</a>:&nbsp;&bull; <a href="/w/index.php?title=AOL_Instant_Messenger&amp;action=edit&amp;redlink=1" class="new" title="AOL Instant Messenger (такой страницы не существует)">aim</a>:&nbsp;&bull; <a href="/w/index.php?title=Bolo&amp;action=edit&amp;redlink=1" class="new" title="Bolo (такой страницы не существует)">bolo</a>:&nbsp;&bull; <a href="/w/index.php?title=Shareaza&amp;action=edit&amp;redlink=1" class="new" title="Shareaza (такой страницы не существует)">btc</a>:&nbsp;&bull; <a href="/w/index.php?title=Bazaar_(software)&amp;action=edit&amp;redlink=1" class="new" title="Bazaar (software) (такой страницы не существует)">bzr</a>:&nbsp;&bull; <a href="/wiki/Skype" title="Skype">callto</a>:&nbsp;&bull; <a href="/w/index.php?title=Chrome_URL&amp;action=edit&amp;redlink=1" class="new" title="Chrome URL (такой страницы не существует)">chrome</a>:&nbsp;&bull; <a href="/w/index.php?title=CVS&amp;action=edit&amp;redlink=1" class="new" title="CVS (такой страницы не существует)">cvs</a>:&nbsp;&bull; <a href="/wiki/DAAP" title="DAAP">daap</a>:&nbsp;&bull; <a href="/w/index.php?title=EDonkey2000_(%D1%81%D0%B5%D1%82%D1%8C)&amp;action=edit&amp;redlink=1" class="new" title="EDonkey2000 (сеть) (такой страницы не существует)">ed2k</a>:&nbsp;&bull; <a href="/w/index.php?title=Shareaza&amp;action=edit&amp;redlink=1" class="new" title="Shareaza (такой страницы не существует)">ed2kftp</a>:&nbsp;&bull; <a href="/w/index.php?title=Feed_URI_scheme&amp;action=edit&amp;redlink=1" class="new" title="Feed URI scheme (такой страницы не существует)">feed</a>:&nbsp;&bull; <a href="/w/index.php?title=Files_transferred_over_shell_protocol&amp;action=edit&amp;redlink=1" class="new" title="Files transferred over shell protocol (такой страницы не существует)">fish</a>:&nbsp;&bull; <a href="/w/index.php?title=Git&amp;action=edit&amp;redlink=1" class="new" title="Git (такой страницы не существует)">git</a>:&nbsp;&bull; <a href="/w/index.php?title=Gizmo5&amp;action=edit&amp;redlink=1" class="new" title="Gizmo5 (такой страницы не существует)">gizmoproject</a>:&nbsp;&bull; <a href="/w/index.php?title=IAX&amp;action=edit&amp;redlink=1" class="new" title="IAX (такой страницы не существует)">iax2</a>:&nbsp;&bull; <a href="/w/index.php?title=IRC&amp;action=edit&amp;redlink=1" class="new" title="IRC (такой страницы не существует)">irc</a>:&nbsp;&bull; <a href="/w/index.php?title=IRC&amp;action=edit&amp;redlink=1" class="new" title="IRC (такой страницы не существует)">ircs</a>:&nbsp;&bull; <a href="/wiki/Last.fm" title="Last.fm">lastfm</a>:&nbsp;&bull; <a href="/w/index.php?title=LDAP&amp;action=edit&amp;redlink=1" class="new" title="LDAP (такой страницы не существует)">ldaps</a>:&nbsp;&bull; <a href="/wiki/Magnet-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0" title="Magnet-ссылка">magnet</a>:&nbsp;&bull; <a href="/wiki/Microsoft_Media_Server" title="Microsoft Media Server">mms</a>:&nbsp;&bull; <a href="/wiki/Windows_Live_Messenger" title="Windows Live Messenger">msnim</a>:&nbsp;&bull; <a href="/w/index.php?title=PSYC&amp;action=edit&amp;redlink=1" class="new" title="PSYC (такой страницы не существует)">psyc</a>:&nbsp;&bull; <a href="/wiki/Rsync" title="Rsync">rsync</a>:&nbsp;&bull; <a href="/w/index.php?title=Second_Life&amp;action=edit&amp;redlink=1" class="new" title="Second Life (такой страницы не существует)">secondlife</a>:&nbsp;&bull; <a href="/wiki/Skype" title="Skype">skype</a>:&nbsp;&bull; <a href="/wiki/SSH" title="SSH">ssh</a>:&nbsp;&bull; <a href="/w/index.php?title=Subversion&amp;action=edit&amp;redlink=1" class="new" title="Subversion (такой страницы не существует)">svn</a>:&nbsp;&bull; <a href="/wiki/SFTP" title="SFTP">sftp</a>:&nbsp;&bull; <a href="/wiki/SMB" title="SMB">smb</a>:&nbsp;&bull; <a href="/w/index.php?title=SMS&amp;action=edit&amp;redlink=1" class="new" title="SMS (такой страницы не существует)">sms</a>:&nbsp;&bull; <a href="/w/index.php?title=Soldat&amp;action=edit&amp;redlink=1" class="new" title="Soldat (такой страницы не существует)">soldat</a>:&nbsp;&bull; <a href="/w/index.php?title=Steam&amp;action=edit&amp;redlink=1" class="new" title="Steam (такой страницы не существует)">steam</a>:&nbsp;&bull; <a href="/w/index.php?title=Unreal&amp;action=edit&amp;redlink=1" class="new" title="Unreal (такой страницы не существует)">unreal</a>:&nbsp;&bull; <a href="/w/index.php?title=Unreal_Tournament_2004&amp;action=edit&amp;redlink=1" class="new" title="Unreal Tournament 2004 (такой страницы не существует)">ut2004</a>:&nbsp;&bull; <a href="/w/index.php?title=View-source&amp;action=edit&amp;redlink=1" class="new" title="View-source (такой страницы не существует)">view-source</a>:&nbsp;&bull; <a href="/w/index.php?title=VZOchat&amp;action=edit&amp;redlink=1" class="new" title="VZOchat (такой страницы не существует)">vzochat</a>:&nbsp;&bull; <a href="/w/index.php?title=Webcal&amp;action=edit&amp;redlink=1" class="new" title="Webcal (такой страницы не существует)">webcal</a>:&nbsp;&bull; <a href="/w/index.php?title=Xfire&amp;action=edit&amp;redlink=1" class="new" title="Xfire (такой страницы не существует)">xfire</a>:&nbsp;&bull; <a href="/w/index.php?title=Yahoo!_Messenger&amp;action=edit&amp;redlink=1" class="new" title="Yahoo! Messenger (такой страницы не существует)">ymsgr</a>:</td></tr></table>
+<table class="navbox collapsible uncollapsed nowraplinks" style="margin:auto;">
+<tr><th colspan="2" style="text-align:center;width:100%;"><div style="float:left; width:6em; text-align:left;"><div class="noprint plainlinksneverexpand" style="background-color: transparent; padding: 0; font-size:xx-small; color:#000000; white-space: nowrap;"><a href="/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:IPstack" title="Шаблон:IPstack"><span style="color:#002bb8;" title="Просмотр этого шаблона">п</span></a>·<a href="/w/index.php?title=%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0:IPstack&amp;action=edit&amp;redlink=1" class="new" title="Обсуждение шаблона:IPstack (такой страницы не существует)"><span style="color:#002bb8;" title="Обсуждение этого шаблона">о</span></a>·<a href="http://www.sbup.com/w/index.php?title=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:IPstack&amp;action=edit" class="external text" title="http://www.sbup.com/w/index.php?title=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:IPstack&amp;action=edit" target="_blank"><span style="color:#002bb8;" title="Вы можете отредактировать этот шаблон. Пожалуйста, используйте клавишу предварительного просмотра перед сохранением">р</span></a></div></div><span style="font-size:110%;">Основные <a href="/w/index.php?title=%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB&amp;action=edit&amp;redlink=1" class="new" title="Сетевой протокол (такой страницы не существует)">протоколы</a> <a href="/w/index.php?title=%D0%A1%D1%82%D0%B5%D0%BA_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2_TCP/IP&amp;action=edit&amp;redlink=1" class="new" title="Стек протоколов TCP/IP (такой страницы не существует)">TCP/IP</a> по уровням</span></th>
+</tr><tr><th style="white-space:nowrap;"><a href="/w/index.php?title=%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Протоколы прикладного уровня (такой страницы не существует)">Прикладной</a></th>
+<td style="width:100%;">
+<p><a href="/w/index.php?title=AODV&amp;action=edit&amp;redlink=1" class="new" title="AODV (такой страницы не существует)">AODV</a>&nbsp;&bull; <a href="/w/index.php?title=Border_Gateway_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Border Gateway Protocol (такой страницы не существует)">BGP</a>&nbsp;&bull; <strong class="selflink">HTTP</strong>&nbsp;&bull; <a href="/w/index.php?title=DHCP&amp;action=edit&amp;redlink=1" class="new" title="DHCP (такой страницы не существует)">DHCP</a>&nbsp;&bull; <a href="/w/index.php?title=IRC&amp;action=edit&amp;redlink=1" class="new" title="IRC (такой страницы не существует)">IRC</a>&nbsp;&bull; <a href="/w/index.php?title=SNMP&amp;action=edit&amp;redlink=1" class="new" title="SNMP (такой страницы не существует)">SNMP</a>&nbsp;&bull; <a href="/wiki/DNS" title="DNS">DNS</a>&nbsp;&bull; <a href="/w/index.php?title=NNTP&amp;action=edit&amp;redlink=1" class="new" title="NNTP (такой страницы не существует)">NNTP</a>&nbsp;&bull; <a href="/wiki/XMPP" title="XMPP">XMPP</a>&nbsp;&bull; <a href="/wiki/SIP" title="SIP">SIP</a>&nbsp;&bull; <a href="/w/index.php?title=BitTorrent&amp;action=edit&amp;redlink=1" class="new" title="BitTorrent (такой страницы не существует)">BitTorrent</a>&nbsp;&bull; <a href="/w/index.php?title=Internet_Printing_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Internet Printing Protocol (такой страницы не существует)">IPP</a>&nbsp;&bull; <a href="/w/index.php?title=NTP&amp;action=edit&amp;redlink=1" class="new" title="NTP (такой страницы не существует)">NTP</a>&nbsp;&bull; <a href="/w/index.php?title=SNTP&amp;action=edit&amp;redlink=1" class="new" title="SNTP (такой страницы не существует)">SNTP</a>
+</p>
+  <table style="background-color: transparent; font-size:100%; padding:0; border:none; margin:-3px; text-align:left;">
+
+<tr>
+<td style="background: #e6e6ff; white-space: nowrap; text-align: right; font-weight: bold; width:11em"><i><a href="/w/index.php?title=%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D1%87%D1%82%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Электронная почта (такой страницы не существует)">Электронная почта</a></i></td>
+<td style="width:auto"><a href="/w/index.php?title=SMTP&amp;action=edit&amp;redlink=1" class="new" title="SMTP (такой страницы не существует)">SMTP</a>&nbsp;&bull; <a href="/w/index.php?title=POP3&amp;action=edit&amp;redlink=1" class="new" title="POP3 (такой страницы не существует)">POP3</a>&nbsp;&bull; <a href="/w/index.php?title=IMAP&amp;action=edit&amp;redlink=1" class="new" title="IMAP (такой страницы не существует)">IMAP</a>4</td>
+</tr><tr>
+<td style="background: #e6e6ff; white-space: nowrap; text-align: right; font-weight: bold;width:11em"><i>Передача файлов</i></td>
+<td style="width:auto"><a href="/w/index.php?title=FTP&amp;action=edit&amp;redlink=1" class="new" title="FTP (такой страницы не существует)">FTP</a>&nbsp;&bull; <a href="/w/index.php?title=TFTP&amp;action=edit&amp;redlink=1" class="new" title="TFTP (такой страницы не существует)">TFTP</a>&nbsp;&bull; <a href="/wiki/SFTP" title="SFTP">SFTP</a></td>
+</tr><tr>
+<td style="background:#e6e6ff;white-space:nowrap;text-align:right; font-weight: bold;width:11em"><i>Удалённый доступ</i></td>
+<td style="width:auto"><a href="/w/index.php?title=Rlogin&amp;action=edit&amp;redlink=1" class="new" title="Rlogin (такой страницы не существует)">rlogin</a>&nbsp;&bull; <a href="/w/index.php?title=Telnet&amp;action=edit&amp;redlink=1" class="new" title="Telnet (такой страницы не существует)">Telnet</a>&nbsp;&bull; <a href="/wiki/SSH" title="SSH">SSH</a></td>
+</tr> &lt;/td&gt;&lt;/tr&gt;</table></td></tr><tr><th style="white-space:nowrap;">Представления</th>
+<td style="width:100%;background:#f0f0f0">
+<a href="/w/index.php?title=External_Data_Representation&amp;action=edit&amp;redlink=1" class="new" title="External Data Representation (такой страницы не существует)">XDR</a>&nbsp;&bull; <a href="/w/index.php?title=SSL&amp;action=edit&amp;redlink=1" class="new" title="SSL (такой страницы не существует)">SSL</a></td></tr><tr><th style="white-space:nowrap;"><a href="/w/index.php?title=%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Транспортный уровень (такой страницы не существует)">Транспортный</a></th>
+<td style="width:100%;">
+<a href="/w/index.php?title=TCP&amp;action=edit&amp;redlink=1" class="new" title="TCP (такой страницы не существует)">TCP</a>&nbsp;&bull; <a href="/w/index.php?title=UDP&amp;action=edit&amp;redlink=1" class="new" title="UDP (такой страницы не существует)">UDP</a>&nbsp;&bull; <a href="/w/index.php?title=SCTP&amp;action=edit&amp;redlink=1" class="new" title="SCTP (такой страницы не существует)">SCTP</a>&nbsp;&bull; <a href="/w/index.php?title=DCCP&amp;action=edit&amp;redlink=1" class="new" title="DCCP (такой страницы не существует)">DCCP</a>&nbsp;&bull; <a href="/w/index.php?title=RTP&amp;action=edit&amp;redlink=1" class="new" title="RTP (такой страницы не существует)">RTP</a>&nbsp;&bull; <a href="/w/index.php?title=RUDP&amp;action=edit&amp;redlink=1" class="new" title="RUDP (такой страницы не существует)">RUDP</a></td></tr><tr><th style="white-space:nowrap;"><a href="/w/index.php?title=%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Протоколы сетевого уровня (такой страницы не существует)">Сетевой</a></th>
+<td style="width:100%;background:#f0f0f0">
+<a href="/w/index.php?title=IPv4&amp;action=edit&amp;redlink=1" class="new" title="IPv4 (такой страницы не существует)">IPv4</a>&nbsp;&bull; <a href="/w/index.php?title=IPv6&amp;action=edit&amp;redlink=1" class="new" title="IPv6 (такой страницы не существует)">IPv6</a>&nbsp;&bull; <a href="/w/index.php?title=ICMP&amp;action=edit&amp;redlink=1" class="new" title="ICMP (такой страницы не существует)">ICMP</a>&nbsp;&bull; <a href="/w/index.php?title=IGMP&amp;action=edit&amp;redlink=1" class="new" title="IGMP (такой страницы не существует)">IGMP</a>&nbsp;&bull; <a href="/w/index.php?title=ARP&amp;action=edit&amp;redlink=1" class="new" title="ARP (такой страницы не существует)">ARP</a>&nbsp;&bull; <a href="/wiki/RARP" title="RARP">RARP</a>&nbsp;&bull; <a href="/w/index.php?title=RIP2&amp;action=edit&amp;redlink=1" class="new" title="RIP2 (такой страницы не существует)">RIP2</a>&nbsp;&bull; <a href="/w/index.php?title=OSPF&amp;action=edit&amp;redlink=1" class="new" title="OSPF (такой страницы не существует)">OSPF</a></td></tr><tr><th style="white-space:nowrap;"><a href="/w/index.php?title=%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Канальный уровень (такой страницы не существует)">Канальный</a></th>
+<td style="width:100%;">
+<a href="/w/index.php?title=Ethernet&amp;action=edit&amp;redlink=1" class="new" title="Ethernet (такой страницы не существует)">Ethernet</a>&nbsp;&bull; <a href="/w/index.php?title=IEEE_802.11&amp;action=edit&amp;redlink=1" class="new" title="IEEE 802.11 (такой страницы не существует)">802.11 WiFi</a>&nbsp;&bull; <a href="/w/index.php?title=Wireless_MAN&amp;action=edit&amp;redlink=1" class="new" title="Wireless MAN (такой страницы не существует)">802.16 WiMax</a>&nbsp;&bull; <a href="/w/index.php?title=Token_ring&amp;action=edit&amp;redlink=1" class="new" title="Token ring (такой страницы не существует)">Token ring</a>&nbsp;&bull; <a href="/wiki/ARCNET" title="ARCNET">ARCNET</a>&nbsp;&bull; <a href="/w/index.php?title=FDDI&amp;action=edit&amp;redlink=1" class="new" title="FDDI (такой страницы не существует)">FDDI</a>&nbsp;&bull; <a href="/w/index.php?title=Point-to-Point_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Point-to-Point Protocol (такой страницы не существует)">PPP</a>&nbsp;&bull; <a href="/wiki/High-Level_Data_Link_Control" title="High-Level Data Link Control">HDLC</a>&nbsp;&bull; <a href="/w/index.php?title=SLIP&amp;action=edit&amp;redlink=1" class="new" title="SLIP (такой страницы не существует)">SLIP</a>&nbsp;&bull; <a href="/w/index.php?title=ATM&amp;action=edit&amp;redlink=1" class="new" title="ATM (такой страницы не существует)">ATM</a>&nbsp;&bull; <a href="/wiki/DTM_(%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB)" title="DTM (протокол)">DTM</a>&nbsp;&bull; <a href="/w/index.php?title=X.25&amp;action=edit&amp;redlink=1" class="new" title="X.25 (такой страницы не существует)">X.25</a>&nbsp;&bull; <a href="/w/index.php?title=Frame_relay&amp;action=edit&amp;redlink=1" class="new" title="Frame relay (такой страницы не существует)">Frame relay</a>&nbsp;&bull; <a href="/w/index.php?title=SMDS&amp;action=edit&amp;redlink=1" class="new" title="SMDS (такой страницы не существует)">SMDS</a></td></tr><tr><th style="white-space:nowrap;"><a href="/w/index.php?title=%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Физический уровень (такой страницы не существует)">Физический</a></th>
+<td style="width:100%;background:#f0f0f0">
+<a href="/w/index.php?title=Ethernet&amp;action=edit&amp;redlink=1" class="new" title="Ethernet (такой страницы не существует)">Ethernet</a>&nbsp;&bull; <a href="/w/index.php?title=RS-232&amp;action=edit&amp;redlink=1" class="new" title="RS-232 (такой страницы не существует)">RS-232</a>&nbsp;&bull; <a href="/w/index.php?title=EIA-422&amp;action=edit&amp;redlink=1" class="new" title="EIA-422 (такой страницы не существует)">EIA-422</a>&nbsp;&bull; <a href="/w/index.php?title=RS-449&amp;action=edit&amp;redlink=1" class="new" title="RS-449 (такой страницы не существует)">RS-449</a>&nbsp;&bull; <a href="/w/index.php?title=RS-485&amp;action=edit&amp;redlink=1" class="new" title="RS-485 (такой страницы не существует)">RS-485</a></td></tr></table><a href="/w/index.php?title=Af:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Af:HTTP (такой страницы не существует)">af:HTTP</a>
+<p><a href="/w/index.php?title=Ar:%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D9%86%D8%B5_%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D9%82&amp;action=edit&amp;redlink=1" class="new" title="Ar:بروتوكول نقل النص الفائق (такой страницы не существует)">ar:بروتوكول نقل النص الفائق</a>
+<a href="/w/index.php?title=Az:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Az:HTTP (такой страницы не существует)">az:HTTP</a>
+<a href="/w/index.php?title=Bg:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Bg:HTTP (такой страницы не существует)">bg:HTTP</a>
+<a href="/w/index.php?title=Bn:%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A6%BE%E0%A6%B0_%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%9F_%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A6%AB%E0%A6%BE%E0%A6%B0_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%9F%E0%A7%8B%E0%A6%95%E0%A6%B2&amp;action=edit&amp;redlink=1" class="new" title="Bn:হাইপার টেক্সট ট্রান্সফার প্রোটোকল (такой страницы не существует)">bn:হাইপার টেক্সট ট্রান্সফার প্রোটোকল</a>
+<a href="/w/index.php?title=Bs:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Bs:Hypertext Transfer Protocol (такой страницы не существует)">bs:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Ca:Protocol_de_transfer%C3%A8ncia_d%27hipertext&amp;action=edit&amp;redlink=1" class="new" title="Ca:Protocol de transferència d&#39;hipertext (такой страницы не существует)">ca:Protocol de transferència d'hipertext</a>
+<a href="/w/index.php?title=Cs:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Cs:Hypertext Transfer Protocol (такой страницы не существует)">cs:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Cy:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Cy:HTTP (такой страницы не существует)">cy:HTTP</a>
+<a href="/w/index.php?title=Da:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Da:HTTP (такой страницы не существует)">da:HTTP</a>
+<a href="/w/index.php?title=De:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="De:Hypertext Transfer Protocol (такой страницы не существует)">de:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=El:%CE%A0%CF%81%CF%89%CF%84%CF%8C%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%9C%CE%B5%CF%84%CE%B1%CF%86%CE%BF%CF%81%CE%AC%CF%82_%CE%A5%CF%80%CE%B5%CF%81%CE%BA%CE%B5%CE%B9%CE%BC%CE%AD%CE%BD%CE%BF%CF%85&amp;action=edit&amp;redlink=1" class="new" title="El:Πρωτόκολλο Μεταφοράς Υπερκειμένου (такой страницы не существует)">el:Πρωτόκολλο Μεταφοράς Υπερκειμένου</a>
+<a href="/w/index.php?title=En:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="En:Hypertext Transfer Protocol (такой страницы не существует)">en:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Eo:Hiperteksto-Transiga_Protokolo&amp;action=edit&amp;redlink=1" class="new" title="Eo:Hiperteksto-Transiga Protokolo (такой страницы не существует)">eo:Hiperteksto-Transiga Protokolo</a>
+<a href="/w/index.php?title=Es:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Es:Hypertext Transfer Protocol (такой страницы не существует)">es:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Et:H%C3%BCperteksti_edastusprotokoll&amp;action=edit&amp;redlink=1" class="new" title="Et:Hüperteksti edastusprotokoll (такой страницы не существует)">et:Hüperteksti edastusprotokoll</a>
+<a href="/w/index.php?title=Eu:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Eu:HTTP (такой страницы не существует)">eu:HTTP</a>
+<a href="/w/index.php?title=Fa:%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84_%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84_%D8%A7%D8%A8%D8%B1%D9%85%D8%AA%D9%86&amp;action=edit&amp;redlink=1" class="new" title="Fa:پروتکل انتقال ابرمتن (такой страницы не существует)">fa:پروتکل انتقال ابرمتن</a>
+<a href="/w/index.php?title=Fi:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Fi:HTTP (такой страницы не существует)">fi:HTTP</a>
+<a href="/w/index.php?title=Fiu-vro:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Fiu-vro:HTTP (такой страницы не существует)">fiu-vro:HTTP</a>
+<a href="/w/index.php?title=Fr:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Fr:Hypertext Transfer Protocol (такой страницы не существует)">fr:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Ga:Pr%C3%B3tacal_Aistrithe_Hipirt%C3%A9acs&amp;action=edit&amp;redlink=1" class="new" title="Ga:Prótacal Aistrithe Hipirtéacs (такой страницы не существует)">ga:Prótacal Aistrithe Hipirtéacs</a>
+<a href="/w/index.php?title=Gl:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Gl:HTTP (такой страницы не существует)">gl:HTTP</a>
+<a href="/w/index.php?title=He:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="He:Hypertext Transfer Protocol (такой страницы не существует)">he:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Hr:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Hr:HTTP (такой страницы не существует)">hr:HTTP</a>
+<a href="/w/index.php?title=Hu:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Hu:HTTP (такой страницы не существует)">hu:HTTP</a>
+<a href="/w/index.php?title=Id:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Id:Hypertext Transfer Protocol (такой страницы не существует)">id:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Is:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Is:Hypertext Transfer Protocol (такой страницы не существует)">is:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=It:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="It:Hypertext Transfer Protocol (такой страницы не существует)">it:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Ja:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Ja:Hypertext Transfer Protocol (такой страницы не существует)">ja:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Kk:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Kk:HTTP (такой страницы не существует)">kk:HTTP</a>
+<a href="/w/index.php?title=Ko:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Ko:HTTP (такой страницы не существует)">ko:HTTP</a>
+<a href="/w/index.php?title=Lb:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Lb:Hypertext Transfer Protocol (такой страницы не существует)">lb:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Lt:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Lt:HTTP (такой страницы не существует)">lt:HTTP</a>
+<a href="/w/index.php?title=Lv:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Lv:HTTP (такой страницы не существует)">lv:HTTP</a>
+<a href="/w/index.php?title=Ml:%E0%B4%B9%E0%B5%88%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%BC_%E0%B4%9F%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%B8%E0%B5%8D%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D%E2%80%8C_%E0%B4%9F%E0%B5%8D%E0%B4%B0%E0%B4%BE%E0%B5%BB%E0%B4%B8%E0%B5%8D%E0%B4%AB%E0%B5%BC_%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8B%E0%B4%95%E0%B5%8B%E0%B5%BE&amp;action=edit&amp;redlink=1" class="new" title="Ml:ഹൈപ്പർ ടെക്സ്റ്റ്‌ ട്രാൻസ്ഫർ പ്രോട്ടോകോൾ (такой страницы не существует)">ml:ഹൈപ്പർ ടെക്സ്റ്റ്‌ ട്രാൻസ്ഫർ പ്രോട്ടോകോൾ</a>
+<a href="/w/index.php?title=Ms:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Ms:HTTP (такой страницы не существует)">ms:HTTP</a>
+<a href="/w/index.php?title=New:%E0%A4%8F%E0%A4%9A_%E0%A4%9F%E0%A5%80_%E0%A4%9F%E0%A5%80_%E0%A4%AA%E0%A5%80&amp;action=edit&amp;redlink=1" class="new" title="New:एच टी टी पी (такой страницы не существует)">new:एच टी टी पी</a>
+<a href="/w/index.php?title=Nl:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Nl:Hypertext Transfer Protocol (такой страницы не существует)">nl:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Nn:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Nn:Hypertext Transfer Protocol (такой страницы не существует)">nn:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=No:HTTP&amp;action=edit&amp;redlink=1" class="new" title="No:HTTP (такой страницы не существует)">no:HTTP</a>
+<a href="/w/index.php?title=Pl:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Pl:Hypertext Transfer Protocol (такой страницы не существует)">pl:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Pt:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Pt:Hypertext Transfer Protocol (такой страницы не существует)">pt:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Ro:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Ro:HTTP (такой страницы не существует)">ro:HTTP</a>
+<a href="/w/index.php?title=Sh:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Sh:HTTP (такой страницы не существует)">sh:HTTP</a>
+<a href="/w/index.php?title=Simple:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Simple:Hypertext Transfer Protocol (такой страницы не существует)">simple:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Sk:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Sk:Hypertext Transfer Protocol (такой страницы не существует)">sk:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Sl:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Sl:HTTP (такой страницы не существует)">sl:HTTP</a>
+<a href="/w/index.php?title=Sq:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Sq:Hypertext Transfer Protocol (такой страницы не существует)">sq:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Sr:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Sr:HTTP (такой страницы не существует)">sr:HTTP</a>
+<a href="/w/index.php?title=Sv:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Sv:HTTP (такой страницы не существует)">sv:HTTP</a>
+<a href="/w/index.php?title=Ta:%E0%AE%AE%E0%AF%80%E0%AE%AF%E0%AF%81%E0%AE%B0%E0%AF%88_%E0%AE%AA%E0%AE%B0%E0%AE%BF%E0%AE%AE%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1_%E0%AE%A8%E0%AF%86%E0%AE%B1%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%B1%E0%AF%88&amp;action=edit&amp;redlink=1" class="new" title="Ta:மீயுரை பரிமாற்ற நெறிமுறை (такой страницы не существует)">ta:மீயுரை பரிமாற்ற நெறிமுறை</a>
+<a href="/w/index.php?title=Th:%E0%B9%80%E0%B8%AD%E0%B8%8A%E0%B8%97%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B8%9E%E0%B8%B5&amp;action=edit&amp;redlink=1" class="new" title="Th:เอชทีทีพี (такой страницы не существует)">th:เอชทีทีพี</a>
+<a href="/w/index.php?title=Tl:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Tl:HTTP (такой страницы не существует)">tl:HTTP</a>
+<a href="/w/index.php?title=Tr:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Tr:HTTP (такой страницы не существует)">tr:HTTP</a>
+<a href="/w/index.php?title=Uk:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Uk:HTTP (такой страницы не существует)">uk:HTTP</a>
+<a href="/w/index.php?title=Vi:Hypertext_Transfer_Protocol&amp;action=edit&amp;redlink=1" class="new" title="Vi:Hypertext Transfer Protocol (такой страницы не существует)">vi:Hypertext Transfer Protocol</a>
+<a href="/w/index.php?title=Zh:%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE&amp;action=edit&amp;redlink=1" class="new" title="Zh:超文本传输协议 (такой страницы не существует)">zh:超文本传输协议</a>
+<a href="/w/index.php?title=Zh-yue:HTTP&amp;action=edit&amp;redlink=1" class="new" title="Zh-yue:HTTP (такой страницы не существует)">zh-yue:HTTP</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 6566/200000
+Post-expand include size: 56449/2097152 bytes
+Template argument size: 26667/2097152 bytes
+Expensive parser function count: 1/100
+-->
+
+<!-- Saved in parser cache with key seomaste_ruswikidb-rus_w_:pcache:idhash:2243-0!1!0!!ru!2!edit=0 and timestamp 20220301131635 -->
+<div class="printfooter">
+Источник — «<a href="http://www.sbup.com/wiki/HTTP">http://www.sbup.com/wiki/HTTP</a>»</div>
+			<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Categories" title="Служебная:Categories">Категории</a>:&#32;<span dir='ltr'><a href="/w/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_%D0%B2_1990_%D0%B3%D0%BE%D0%B4%D1%83&amp;action=edit&amp;redlink=1" class="new" title="Категория:Появились в 1990 году (такой страницы не существует)">Появились в 1990 году</a></span> | <span dir='ltr'><a href="/w/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D1%81_%D0%BD%D0%B5%D0%B7%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D1%91%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%D0%BC%D0%B8&amp;action=edit&amp;redlink=1" class="new" title="Категория:Википедия:Статьи с незавершёнными разделами (такой страницы не существует)">Википедия:Статьи с незавершёнными разделами</a></span> | <span dir='ltr'><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:TCP/IP" title="Категория:TCP/IP">TCP/IP</a></span> | <span dir='ltr'><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B" title="Категория:Сетевые протоколы">Сетевые протоколы</a></span> | <span dir='ltr'><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_HTTP" title="Категория:Протокол HTTP">Протокол HTTP</a></span> | <span dir='ltr'><a href="/w/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B5_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Категория:Открытые форматы (такой страницы не существует)">Открытые форматы</a></span> | <span dir='ltr'><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B" title="Категория:Интернет-протоколы">Интернет-протоколы</a></span></div></div>			
+			<br>
+&darr; <script type="text/javascript">
+<!--
+var _acic={dataProvider:10};(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://www.acint.net/aci.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+</script><!--1897267651864-->      
+<br>    <br>			
+			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+		<!-- Google Ad bottom by me -->
+		<script language="javascript" type="text/javascript" src="/scripts/bottom.js"></script>
+		<!-- End Google Ad bottom by me -->
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Просмотры</h5>
+		<div class="pBody">
+			<ul>
+				<li class="home"><a title="Домой" href="http://www.sbup.com/wiki/Seo_Wiki"></a></li>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/wiki/HTTP" title="Содержание статьи [c]" accesskey="c">Статья</a></li>
+				 <li id="ca-talk" class="new"><a href="/w/index.php?title=%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5:HTTP&amp;action=edit&amp;redlink=1" title="Обсуждение содержания страницы [t]" accesskey="t">Обсуждение</a></li>
+				 <li id="ca-viewsource"><a href="/w/index.php?title=HTTP&amp;action=edit" title="Эта страница защищена от изменений, но вы можете посмотреть и скопировать её исходный текст [e]" accesskey="e">Просмотр</a></li>
+				 <li id="ca-history"><a href="/w/index.php?title=HTTP&amp;action=history" title="Журнал изменений страницы [h]" accesskey="h">История</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Личные инструменты</h5>
+		<div class="pBody">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/w/skins/common/images/wiki.png);" href="/wiki/Seo_Wiki" title="Заглавная страница [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Навигация</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/wiki/Seo_Wiki">Заглавная страница</a></li>
+				<li id="n-recentchanges"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:RecentChanges" title="Список последних изменений [r]" accesskey="r">Свежие правки</a></li>
+				<li id="n-randompage"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Random" title="Посмотреть случайную страницу [x]" accesskey="x">Случайная статья</a></li>
+				<li id="n-help"><a href="/wiki/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0:%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0" title="Справочник по проекту «Seo Wiki - Поисковая Оптимизация и Программирование»">Справка</a></li>
+			</ul>
+		</div>
+	</div>
+			
+			<script language="javascript" type="text/javascript" src="/scripts/bookmarks.js"></script>
+			
+				<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Поиск</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/w/index.php" id="searchform"><div>
+				<input type='hidden' name="title" value="Служебная:Search"/>
+				<input id="searchInput" name="search" type="text" title="Искать это слово [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Перейти" title="Перейти к странице, имеющей в точности такое название" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Найти" title="Найти страницы, содержащие указанный текст" />
+			</div></form>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-SEO_.D1.81.D0.B5.D1.80.D0.B2.D0.B8.D1.81.D1.8B'>
+		<h5>SEO сервисы</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-.D0.91.D0.B5.D1.81.D0.BF.D0.BB.D0.B0.D1.82.D0.BD.D1.8B.D0.B5-SEO-.D0.B8.D0.BD.D1.81.D1.82.D1.80.D1.83.D0.BC.D0.B5.D0.BD.D1.82.D1.8B"><a href="/">Бесплатные SEO инструменты</a></li>
+				<li id="n-.D0.A1.D1.80.D0.B0.D0.B2.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5-.D0.A1.D0.B0.D0.B9.D1.82.D0.BE.D0.B2"><a href="/site-comparison.php">Сравнение Сайтов</a></li>
+				<li id="n-.D0.93.D0.B5.D0.BE-.D0.BC.D0.B5.D1.81.D1.82.D0.BE.D0.BF.D0.BE.D0.BB.D0.BE.D0.B6.D0.B5.D0.BD.D0.B8.D0.B5-IP-.D0.B0.D0.B4.D1.80.D0.B5.D1.81.D0.B0"><a href="/ip-host-name-locator.php">Гео местоположение IP адреса</a></li>
+				<li id="n-.D0.9F.D1.80.D0.BE.D0.B2.D0.B5.D1.80.D0.BA.D0.B0-.D0.BF.D0.BB.D0.BE.D1.82.D0.BD.D0.BE.D1.81.D1.82.D0.B8-.D0.BA.D0.BB.D1.8E.D1.87.D0.B5.D0.B2.D1.8B.D1.85-.D1.81.D0.BB.D0.BE.D0.B2"><a href="/keyword-density-analyzer.php">Проверка плотности ключевых слов</a></li>
+				<li id="n-.D0.9F.D0.BE.D0.B8.D1.81.D0.BA-.D0.BF.D0.BE.D1.85.D0.BE.D0.B6.D0.B8.D1.85-.D1.81.D1.82.D1.80.D0.B0.D0.BD.D0.B8.D1.86"><a href="/duplicate-page-finder.php">Поиск похожих страниц</a></li>
+				<li id="n-WhoIs"><a href="/whois.php">WhoIs</a></li>
+				<li id="n-.D0.9F.D1.80.D0.BE.D0.B3.D0.BD.D0.BE.D0.B7-PageRank"><a href="/pagerank-prediction.php">Прогноз PageRank</a></li>
+				<li id="n-.D0.98.D0.BC.D0.B8.D1.82.D0.B0.D1.82.D0.BE.D1.80-.D0.BF.D0.BE.D0.B8.D1.81.D0.BA.D0.BE.D0.B2.D1.8B.D1.85-.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC"><a href="/search-engine-spider-imitator.php">Имитатор поисковых систем</a></li>
+			</ul>
+		</div>
+	</div>
+			
+			<div class='generated-sidebar portlet' id='p-Forum'>
+        		<h5>Форум</h5>
+        		<div class='pBody'>
+        
+        			<ul>
+        				<li id="n-Seo-Forum"><a href="/seo-forum/index.php">Seo Форум</a></li>
+        				<li id="n-Search-Engine-Optimization"><a href="/seo-forum/index.php?c=2">Поисковая оптимизация</a></li>
+        				<li id="n-Search-Engines"><a href="/seo-forum/index.php?c=3">Поисковые системы и каталоги</a></li>
+        				<li id="n-Directories"><a href="/seo-forum/index.php?c=4">Практика оптимизации</a></li>
+        				<li id="n-Social-Marketing"><a href="/seo-forum/index.php?c=5">Социальные медиа</a></li>        
+        				<li id="n-Marketplace"><a href="/seo-forum/index.php?c=6">Web разработка</a></li>
+        				<li id="n-Black-Hat-SEO"><a href="/seo-forum/index.php?c=7">Размещение сайтов</a></li>
+        				<li id="n-Blogging"><a href="/seo-forum/index.php?c=8">Реклама и маркетинг</a></li>
+        				<li id="n-Website-Design-and-Graphics"><a href="/seo-forum/index.php?c=9">Seo рынок</a></li>
+        				<li id="n-Web-Administration"><a href="/seo-forum/index.php?c=11">Программирование</a></li>
+        			</ul>
+        		</div>
+        	</div>
+			
+            <script language="javascript" type="text/javascript" src="/scripts/leftwiki.js"></script>
+            	<div class="portlet" id="p-tb">
+		<h5>Инструменты</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:WhatLinksHere/HTTP" title="Список всех страниц, которые ссылаются на эту страницу [j]" accesskey="j">Ссылки сюда</a></li>
+				<li id="t-recentchangeslinked"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:RecentChangesLinked/HTTP" title="Последние изменения в страницах, на которые ссылается эта страница [k]" accesskey="k">Связанные правки</a></li>
+<li id="t-specialpages"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:SpecialPages" title="Список служебных страниц [q]" accesskey="q">Спецстраницы</a></li>
+				<li id="t-print"><a href="/w/index.php?title=HTTP&amp;printable=yes" rel="alternate" title="Версия для печати этой страницы [p]" accesskey="p">Версия для печати</a></li>				<li id="t-permalink"><a href="/w/index.php?title=HTTP&amp;oldid=4492" title="Постоянная ссылка на эту версию страницы">Постоянная ссылка</a></li>			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-.D0.93.D0.BB.D0.B0.D0.B2.D0.BD.D1.8B.D0.B5_.D0.BA.D0.B0.D1.82.D0.B5.D0.B3.D0.BE.D1.80.D0.B8.D0.B8'>
+		<h5>Главные категории</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-.D0.9F.D0.BE.D0.B8.D1.81.D0.BA.D0.BE.D0.B2.D0.B0.D1.8F-.D0.BE.D0.BF.D1.82.D0.B8.D0.BC.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D1.8F"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">Поисковая оптимизация</a></li>
+				<li id="n-.D0.A1.D0.BF.D0.B0.D0.BC"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%BF%D0%B0%D0%BC">Спам</a></li>
+				<li id="n-.D0.9F.D0.BE.D0.B8.D1.81.D0.BA.D0.BE.D0.B2.D1.8B.D0.B5-.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D1.8B"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B">Поисковые системы</a></li>
+				<li id="n-Google"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Google">Google</a></li>
+				<li id="n-Google-.D0.9F.D0.B5.D1.80.D0.B5.D0.B2.D0.BE.D0.B4.D1.87.D0.B8.D0.BA"><a href="/wiki/Google_%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA">Google Переводчик</a></li>
+				<li id="n-.D0.AF.D0.BD.D0.B4.D0.B5.D0.BA.D1.81"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81">Яндекс</a></li>
+				<li id="n-YouTube"><a href="/wiki/YouTube">YouTube</a></li>
+				<li id="n-.D0.AF.D0.BD.D0.B4.D0.B5.D0.BA.D1.81-.D0.9A.D0.BE.D0.BC.D0.BF.D0.B0.D0.BD.D0.B8.D1.8F"><a href="/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81">Яндекс Компания</a></li>
+				<li id="n-.D0.92.D1.81.D0.B5.D0.BC.D0.B8.D1.80.D0.BD.D0.B0.D1.8F-.D0.BF.D0.B0.D1.83.D1.82.D0.B8.D0.BD.D0.B0"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Всемирная паутина</a></li>
+				<li id="n-.D0.92.D0.B5.D0.B1-.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Веб программирование</a></li>
+				<li id="n-.D0.92.D0.B5.D0.B1-2.0"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B5%D0%B1_2.0">Веб 2.0</a></li>
+				<li id="n-.D0.92.D0.B5.D0.B1-.D1.80.D0.B0.D0.B7.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B0"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0">Веб-разработка</a></li>
+				<li id="n-.D0.92.D0.B5.D0.B1-.D0.B4.D0.B8.D0.B7.D0.B0.D0.B9.D0.BD"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD">Веб-дизайн</a></li>
+				<li id="n-.D0.91.D0.BB.D0.BE.D0.B3.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%91%D0%BB%D0%BE%D0%B3%D0%B8">Блоги</a></li>
+				<li id="n-HTML"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:HTML">HTML</a></li>
+				<li id="n-XML"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:XML">XML</a></li>
+				<li id="n-.D0.9A.D0.BE.D0.BC.D0.BF.D1.8C.D1.8E.D1.82.D0.B5.D1.80.D0.BD.D1.8B.D0.B5-.D1.82.D0.B5.D1.85.D0.BD.D0.BE.D0.BB.D0.BE.D0.B3.D0.B8.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8">Компьютерные технологии</a></li>
+				<li id="n-.D0.9A.D0.BE.D0.BC.D0.BF.D1.8C.D1.8E.D1.82.D0.B5.D1.80.D0.BD.D1.8B.D0.B5-.D1.81.D0.B5.D1.82.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D1%81%D0%B5%D1%82%D0%B8">Компьютерные сети</a></li>
+				<li id="n-.D0.98.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D0.B8.D0.BA.D0.B0"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0">Информатика</a></li>
+				<li id="n-.D0.91.D0.B0.D0.B7.D1.8B-.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%91%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a></li>
+				<li id="n-.D0.A1.D0.A3.D0.91.D0.94"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%A3%D0%91%D0%94">СУБД</a></li>
+				<li id="n-.D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Программирование</a></li>
+				<li id="n-.D0.9F.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.BD.D0.BE.D0.B5-.D0.BE.D0.B1.D0.B5.D1.81.D0.BF.D0.B5.D1.87.D0.B5.D0.BD.D0.B8.D0.B5"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">Программное обеспечение</a></li>
+				<li id="n-.D0.AF.D0.B7.D1.8B.D0.BA.D0.B8-.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">Языки программирования</a></li>
+				<li id="n-.D0.AF.D0.B7.D1.8B.D0.BA.D0.B8-.D1.80.D0.B0.D0.B7.D0.BC.D0.B5.D1.82.D0.BA.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8">Языки разметки</a></li>
+				<li id="n-.D0.9E.D0.9E.D0.9F"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">ООП</a></li>
+				<li id="n-.D0.A1.D0.BA.D1.80.D0.B8.D0.BF.D1.82.D0.BE.D0.B2.D1.8B.D0.B5-.D1.8F.D0.B7.D1.8B.D0.BA.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8">Скриптовые языки</a></li>
+				<li id="n-.D0.A1.D1.80.D0.B5.D0.B4.D1.8B-.D1.80.D0.B0.D0.B7.D1.80.D0.B0.D0.B1.D0.BE.D1.82.D0.BA.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D1%80%D0%B5%D0%B4%D1%8B_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8">Среды разработки</a></li>
+				<li id="n-.D0.A8.D0.B0.D0.B1.D0.BB.D0.BE.D0.BD.D1.8B-.D0.BF.D1.80.D0.BE.D0.B5.D0.BA.D1.82.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">Шаблоны проектирования</a></li>
+				<li id="n-JavaScript"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:JavaScript">JavaScript</a></li>
+				<li id="n-Python"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Python">Python</a></li>
+				<li id="n-PHP"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:PHP">PHP</a></li>
+				<li id="n-Perl"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Perl">Perl</a></li>
+				<li id="n-.D0.90.D1.81.D1.81.D0.B5.D0.BC.D0.B1.D0.BB.D0.B5.D1.80"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80">Ассемблер</a></li>
+				<li id="n-.NET-Framework"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:.NET_Framework">.NET Framework</a></li>
+				<li id="n-POSIX"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:POSIX">POSIX</a></li>
+				<li id="n-Java"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Java">Java</a></li>
+				<li id="n-C.2B.2B"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:C%2B%2B">C++</a></li>
+				<li id="n-.D0.AF.D0.B7.D1.8B.D0.BA-.D0.A1.D0.B8"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A1%D0%B8">Язык Си</a></li>
+				<li id="n-AJAX"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:AJAX">AJAX</a></li>
+				<li id="n-Delphi"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:Delphi">Delphi</a></li>
+				<li id="n-UNIX"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:UNIX">UNIX</a></li>
+				<li id="n-Pascal"><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_Pascal">Pascal</a></li>
+				<li id="n-.D0.9A.D0.BE.D0.B4-.D0.BF.D0.BE.D1.81.D1.82.D0.B0.D0.BD.D0.BE.D0.B2.D0.BA.D0.B8-.D0.BD.D0.B0-.D1.83.D1.87.D1.91.D1.82"><a href="/wiki/%D0%9A%D0%BE%D0%B4_%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D1%8B_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BD%D0%B0_%D1%83%D1%87%D1%91%D1%82">Код постановки на учёт</a></li>
+				<li id="n-.D0.9E.D0.91.D0.94-.C2.AB.D0.9C.D0.B5.D0.BC.D0.BE.D1.80.D0.B8.D0.B0.D0.BB.C2.BB"><a href="/wiki/%D0%9E%D0%91%D0%94_%C2%AB%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%C2%BB">ОБД «Мемориал»</a></li>
+				<li id="n-.D0.AF.D0.BD.D0.B4.D0.B5.D0.BA.D1.81..D0.92.D0.B8.D0.B4.D0.B5.D0.BE"><a href="/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%92%D0%B8%D0%B4%D0%B5%D0%BE">Яндекс.Видео</a></li>
+				<li id="n-.D0.98.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.BE.D0.BD.D0.BD.D0.B0.D1.8F-.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.B0"><a href="/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0">Информационная система</a></li>
+				<li id="n-.D0.A1.D0.BF.D0.B8.D1.81.D0.BE.D0.BA-.D1.8F.D0.B7.D1.8B.D0.BA.D0.BE.D0.B2-.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F"><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">Список языков программирования</a></li>
+				<li id="n-Google-Maps"><a href="/wiki/Google_Maps">Google Maps</a></li>
+				<li id="n-.D0.92.D0.B5.D0.B1-.D1.81.D0.B0.D0.B9.D1.82"><a href="/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82">Веб-сайт</a></li>
+				<li id="n-.D0.90.D0.BB.D1.8C.D0.B4.D0.B5.D0.B1.D0.B0.D1.80.D0.B0.D0.BD"><a href="/wiki/%D0%90%D0%BB%D1%8C%D0%B4%D0%B5%D0%B1%D0%B0%D1%80%D0%B0%D0%BD_(%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0)">Альдебаран</a></li>
+				<li id="n-.D0.A1.D1.80.D0.B5.D0.B4.D1.81.D1.82.D0.B2.D0.B0-.D0.B7.D0.B0.D1.89.D0.B8.D1.82.D1.8B-.D0.B8.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.B8"><a href="/wiki/%D0%A1%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0_%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D1%8B_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8">Средства защиты информации</a></li>
+				<li id="n-.D0.A1.D0.BF.D0.B8.D1.81.D0.BE.D0.BA-.D0.B1.D1.80.D0.B0.D1.83.D0.B7.D0.B5.D1.80.D0.BE.D0.B2"><a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%BE%D0%B2">Список браузеров</a></li>
+				<li id="n-.D0.91.D0.B0.D0.B7.D0.B0-.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85"><a href="/wiki/%D0%91%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">База данных</a></li>
+			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="/">Бесплатные SEO сервисы</a><br><a href="/">Поисковая оптимизация и раскрутка сайта</a></div>
+			<ul id="f-list">
+					<li id="lastmod"> Последнее изменение этой страницы: 03:56, 13 февраля 2010.</li>
+					<li id="viewcount">К этой странице обращались 2103 раза.</li>
+					<li id="privacy"><a href="/wiki/Seo_Wiki_-_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="Seo Wiki - Поисковая Оптимизация и Программирование:Политика конфиденциальности">Политика конфиденциальности</a></li>
+					<li id="about"><a href="/wiki/Seo_Wiki_-_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" title="Seo Wiki - Поисковая Оптимизация и Программирование:Описание">Описание Seo Wiki - Поисковая Оптимизация и Программирование</a></li>
+					<li id="disclaimer"><a href="/wiki/Seo_Wiki_-_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%9E%D1%82%D0%BA%D0%B0%D0%B7_%D0%BE%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="Seo Wiki - Поисковая Оптимизация и Программирование:Отказ от ответственности">Отказ от ответственности</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<br> Served in 1.298 secs. <br> 
+</body></html>

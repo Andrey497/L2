@@ -9,8 +9,7 @@ func NewShell(command, parameter string) *shell {
 	return &shell{command: command, parameters: parameter}
 }
 func (sh *shell) Execute() error {
-	sh.switchCommand()
-	return nil
+	return sh.switchCommand()
 }
 func (sh *shell) switchCommand() error {
 	switch sh.command {
