@@ -37,7 +37,6 @@ func main() {
 
 				shell := pkg.NewShell(command, parameter)
 				err := shell.Execute()
-
 				if err != nil {
 					fmt.Println(err)
 				}
