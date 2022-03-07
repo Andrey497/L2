@@ -1,17 +1,17 @@
 package repository
 
+import "rest/pkg/models"
+
 type Event interface {
-	CreateEvent()
-	UpdateEvent()
-	DeleteEvent()
-	GetEventByDay()
-	GetEventByWeek()
-	GetEventByMonth()
+	CreateEvent(event models.Event) (int, error)
+	UpdateEvent(event models.Event) (*models.Event, error)
+	DeleteEvent(id int) error
+	GetEvent(date1, date2 string) ([]models.Event, error)
 }
-type repository struct {
-	Event Event
+type Repository struct {
+	Event
 }
 
-func NewRepository(db *dBConnect) *repository {
-	return &repository{Event: NewEventRepository(db)}
+func NewRepository(db *dBConnect) *Repository {
+	return &Repository{Event: NewEventRepository(db)}
 }

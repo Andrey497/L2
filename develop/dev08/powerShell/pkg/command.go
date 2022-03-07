@@ -12,9 +12,9 @@ import (
 func command(command, parameter string) error {
 	var cmd *exec.Cmd
 	if strings.TrimSpace(parameter) != "" {
-		cmd = exec.Command("cmd", "/C", command, parameter)
+		cmd = exec.Command(command, parameter)
 	} else {
-		cmd = exec.Command("cmd", "/C", command)
+		cmd = exec.Command(command)
 	}
 	stdout, err := cmd.StdoutPipe()
 

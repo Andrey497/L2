@@ -1,5 +1,13 @@
 package main
 
+import (
+	"log"
+	"net/http"
+	handler2 "rest/pkg/handler"
+	"rest/pkg/repository"
+	"rest/pkg/server"
+)
+
 /*
 === HTTP server ===
 
@@ -23,5 +31,14 @@ package main
 */
 
 func main() {
+	rout := &http.ServeMux{}
+	db, err := repository.NewDbConnect()
+	if err != nil {
+		log.Fatal(err)
+	}
+	repos := repository.NewRepository(db)
+	handler := handler2.NewHandler(repos)
+	server := server.InitServer(handler, rout)
+	server.StartServer()
 
 }
