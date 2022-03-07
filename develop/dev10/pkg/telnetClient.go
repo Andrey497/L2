@@ -29,9 +29,8 @@ func (t *telnetClient) BuildConnect() error {
 }
 
 func (t *telnetClient) Send() error {
-	fmt.Scan()
 	data := []byte{}
-	_, err := t.reader.Read(data)
+	_, err := fmt.Fscan(t.reader, &data)
 	if err != nil {
 		return err
 	}
